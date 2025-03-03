@@ -2954,10 +2954,6 @@ Uri: http://b/favicon.ico
 File Name: C:\Downloaded Web Sites\b\favicon.ico
 Content Type: image/x-icon
 
-Uri: http://b/file/视频收集/广东省雷州市倜傥上村文化楼落成庆典.mp4
-File Name: C:\Downloaded Web Sites\b\file\视频收集\广东省雷州市倜傥上村文化楼落成庆典.mp4
-Content Type: video/mp4
-
 Uri: http://b/icon_32-2.png
 File Name: C:\Downloaded Web Sites\b\icon_32-2.png
 Content Type: image/png
@@ -3446,20 +3442,8 @@ Uri: http://b/pdf/web/viewer.css
 File Name: C:\Downloaded Web Sites\b\pdf\web\viewer.css
 Content Type: text/css
 
-Uri: http://b/pdf/web/viewer.html?file=/assets/file/2020/08/关于2020年初中毕业生学业考试成绩发布及申请复查的通知.pdf
-File Name: C:\Downloaded Web Sites\b\pdf\web\viewer-20.html
-Content Type: text/html
-
 Uri: http://b/pdf/web/viewer.html?file=/assets/file/2020/08/湛教函〔2020〕159号：关于公布湛江市2020年高中阶段学校录取控制分数线的通知.pdf
 File Name: C:\Downloaded Web Sites\b\pdf\web\viewer-19.html
-Content Type: text/html
-
-Uri: http://b/pdf/web/viewer.html?file=/assets/file/2022/05/中小学教育惩戒规则（试行） - 中华人民共和国教育部政府门户网站.pdf
-File Name: C:\Downloaded Web Sites\b\pdf\web\viewer-17.html
-Content Type: text/html
-
-Uri: http://b/pdf/web/viewer.html?file=/assets/file/2023/04/职工保险参保证明查询打印.pdf
-File Name: C:\Downloaded Web Sites\b\pdf\web\viewer-18.html
 Content Type: text/html
 
 Uri: http://b/pdf/web/viewer.html?file=/assets/file/2024/12/倜傥管区/倜傥上村介绍.pdf
@@ -3481,80 +3465,4 @@ Content Type: text/html
 Uri: https://api.dujin.org/bing/1920.php
 File Name: C:\Downloaded Web Sites\b\bing\1920.php
 Content Type: image/jpeg
-
-Uri: https://m.wdlu.cn/
-File Name: C:\Downloaded Web Sites\b\index-1.htm
-Content Type: text/html
-
-Uri: https://m.wdlu.cn/css/APlayer.min.css
-File Name: C:\Downloaded Web Sites\b\css\APlayer.min.css
-Content Type: text/css
-
-Uri: https://m.wdlu.cn/js/APlayer.min.js
-File Name: C:\Downloaded Web Sites\b\js\APlayer.min.js
-Content Type: text/javascript
-
-Uri: https://m.wdlu.cn/js/main.js
-File Name: C:\Downloaded Web Sites\b\js\main.js
-Content Type: text/javascript
-
-Uri: https://m.wdlu.cn/js/Meting.min.js
-File Name: C:\Downloaded Web Sites\b\js\Meting.min.js
-Content Type: text/javascript
-
-Uri: https://m.wdlu.cn/_nuxt/c6y0bbv0.js
-File Name: C:\Downloaded Web Sites\b\_nuxt\c6y0bbv0.js
-Content Type: text/javascript
-
-Uri: https://m.wdlu.cn/_nuxt/co4q77ak.js
-File Name: C:\Downloaded Web Sites\b\_nuxt\co4q77ak.js
-Content Type: text/javascript
-
-Uri: https://m.wdlu.cn/_nuxt/e8ce4k72.js
-File Name: C:\Downloaded Web Sites\b\_nuxt\e8ce4k72.js
-Content Type: text/javascript
-
-Uri: https://m.wdlu.cn/_nuxt/ec7yh18l.js
-File Name: C:\Downloaded Web Sites\b\_nuxt\ec7yh18l.js
-Content Type: text/javascript
-
-Uri: https://m.wdlu.cn/_nuxt/entry.mz1ryyi9.css
-File Name: C:\Downloaded Web Sites\b\_nuxt\entry.mz1ryyi9.css
-Content Type: text/css
-
-Uri: https://m.wdlu.cn/_nuxt/error-404.c7oujjhp.css
-File Name: C:\Downloaded Web Sites\b\_nuxt\error-404.c7oujjhp.css
-Content Type: text/css
-
-Uri: https://m.wdlu.cn/_nuxt/error-500.kjj05zik.css
-File Name: C:\Downloaded Web Sites\b\_nuxt\error-500.kjj05zik.css
-Content Type: text/css
-
-Uri: https://m.wdlu.cn/_nuxt/eytrhzjt.js
-File Name: C:\Downloaded Web Sites\b\_nuxt\eytrhzjt.js
-Content Type: text/javascript
-
-Uri: https://m.wdlu.cn/_nuxt/gmht5bgz.js
-File Name: C:\Downloaded Web Sites\b\_nuxt\gmht5bgz.js
-Content Type: text/javascript
-
-Uri: https://m.wdlu.cn/_nuxt/iy9wi2re.js
-File Name: C:\Downloaded Web Sites\b\_nuxt\iy9wi2re.js
-Content Type: text/javascript
-
-Uri: https://m.wdlu.cn/_nuxt/jn4tgqpo.js
-File Name: C:\Downloaded Web Sites\b\_nuxt\jn4tgqpo.js
-Content Type: text/javascript
-
-Uri: https://m.wdlu.cn/_nuxt/md9ta363.js
-File Name: C:\Downloaded Web Sites\b\_nuxt\md9ta363.js
-Content Type: text/javascript
-
-Uri: https://m.wdlu.cn/_nuxt/oqvp7yz5.js
-File Name: C:\Downloaded Web Sites\b\_nuxt\oqvp7yz5.js
-Content Type: text/javascript
-
-Uri: https://m.wdlu.cn/_nuxt/ou69qqfo.js
-File Name: C:\Downloaded Web Sites\b\_nuxt\ou69qqfo.js
-Content Type: text/javascript
 
