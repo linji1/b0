@@ -2466,6 +2466,10 @@ Uri: http://b/assets/file/2022/06/戏楼/倜傥上村文化楼筹建捐资倡议
 File Name: C:\Downloaded Web Sites\b\assets\file\2022\06\戏楼\倜傥上村文化楼筹建捐资倡议书.pdf
 Content Type: application/pdf
 
+Uri: http://b/assets/file/2022/06/戏楼/倜傥上村文化楼落成庆典仪式主持稿（初稿）.docx
+File Name: C:\Downloaded Web Sites\b\assets\file\2022\06\戏楼\倜傥上村文化楼落成庆典仪式主持稿（初稿）.docx
+Content Type: application/vnd.openxmlformats-officedocument.wordprocessingml.document
+
 Uri: http://b/assets/file/2022/06/戏楼/倜傥上村筹建文化楼收款名单.pdf
 File Name: C:\Downloaded Web Sites\b\assets\file\2022\06\戏楼\倜傥上村筹建文化楼收款名单.pdf
 Content Type: application/pdf
@@ -2509,6 +2513,10 @@ Content Type: image/webp
 Uri: http://b/assets/file/2022/06/戏楼/20221025223905.webp
 File Name: C:\Downloaded Web Sites\b\assets\file\2022\06\戏楼\20221025223905.webp
 Content Type: image/webp
+
+Uri: http://b/assets/file/2022/06/戏楼/2023元首费用.xlsx
+File Name: C:\Downloaded Web Sites\b\assets\file\2022\06\戏楼\2023元首费用.xlsx
+Content Type: application/vnd.openxmlformats-officedocument.spreadsheetml.sheet
 
 Uri: http://b/assets/file/2022/06/戏楼/2023年元首供神奉祀、年例费用收支公布表.pdf
 File Name: C:\Downloaded Web Sites\b\assets\file\2022\06\戏楼\2023年元首供神奉祀、年例费用收支公布表.pdf
@@ -3014,6 +3022,14 @@ Uri: http://b/assets/file/2024/12/倜傥管区/何梓由.webp
 File Name: C:\Downloaded Web Sites\b\assets\file\2024\12\倜傥管区\何梓由.webp
 Content Type: image/webp
 
+Uri: http://b/assets/file/2024/12/倜傥管区/倜傥上村介绍.pdf
+File Name: C:\Downloaded Web Sites\b\assets\file\2024\12\倜傥管区\倜傥上村介绍.pdf
+Content Type: application/pdf
+
+Uri: http://b/assets/file/2024/12/倜傥管区/倜傥村村规民约.pdf
+File Name: C:\Downloaded Web Sites\b\assets\file\2024\12\倜傥管区\倜傥村村规民约.pdf
+Content Type: application/pdf
+
 Uri: http://b/assets/file/2024/12/倜傥管区/徐璨.webp
 File Name: C:\Downloaded Web Sites\b\assets\file\2024\12\倜傥管区\徐璨.webp
 Content Type: image/webp
@@ -3441,332 +3457,4 @@ Content Type: text/html
 Uri: http://b/list-0.html
 File Name: C:\Downloaded Web Sites\b\list-0.html
 Content Type: text/html
-
-Uri: http://b/list-1.html
-File Name: C:\Downloaded Web Sites\b\list-1.html
-Content Type: text/html
-
-Uri: http://b/list-2.html
-File Name: C:\Downloaded Web Sites\b\list-2.html
-Content Type: text/html
-
-Uri: http://b/pdf/build/pdf.js
-File Name: C:\Downloaded Web Sites\b\pdf\build\pdf.js
-Content Type: application/javascript
-
-Uri: http://b/pdf/web/compatibility.js
-File Name: C:\Downloaded Web Sites\b\pdf\web\compatibility.js
-Content Type: application/javascript
-
-Uri: http://b/pdf/web/debugger.js
-File Name: C:\Downloaded Web Sites\b\pdf\web\debugger.js
-Content Type: application/javascript
-
-Uri: http://b/pdf/web/images/findbarButton-next-rtl.png
-File Name: C:\Downloaded Web Sites\b\pdf\web\images\findbarButton-next-rtl.png
-Content Type: image/png
-
-Uri: http://b/pdf/web/images/findbarButton-next-rtl@2x.png
-File Name: C:\Downloaded Web Sites\b\pdf\web\images\findbarButton-next-rtl@2x.png
-Content Type: image/png
-
-Uri: http://b/pdf/web/images/findbarButton-next.png
-File Name: C:\Downloaded Web Sites\b\pdf\web\images\findbarButton-next.png
-Content Type: image/png
-
-Uri: http://b/pdf/web/images/findbarButton-next@2x.png
-File Name: C:\Downloaded Web Sites\b\pdf\web\images\findbarButton-next@2x.png
-Content Type: image/png
-
-Uri: http://b/pdf/web/images/findbarButton-previous-rtl.png
-File Name: C:\Downloaded Web Sites\b\pdf\web\images\findbarButton-previous-rtl.png
-Content Type: image/png
-
-Uri: http://b/pdf/web/images/findbarButton-previous-rtl@2x.png
-File Name: C:\Downloaded Web Sites\b\pdf\web\images\findbarButton-previous-rtl@2x.png
-Content Type: image/png
-
-Uri: http://b/pdf/web/images/findbarButton-previous.png
-File Name: C:\Downloaded Web Sites\b\pdf\web\images\findbarButton-previous.png
-Content Type: image/png
-
-Uri: http://b/pdf/web/images/findbarButton-previous@2x.png
-File Name: C:\Downloaded Web Sites\b\pdf\web\images\findbarButton-previous@2x.png
-Content Type: image/png
-
-Uri: http://b/pdf/web/images/grab.cur
-File Name: C:\Downloaded Web Sites\b\pdf\web\images\grab.cur
-Content Type: application/octet-stream
-
-Uri: http://b/pdf/web/images/grabbing.cur
-File Name: C:\Downloaded Web Sites\b\pdf\web\images\grabbing.cur
-Content Type: application/octet-stream
-
-Uri: http://b/pdf/web/images/loading-icon.gif
-File Name: C:\Downloaded Web Sites\b\pdf\web\images\loading-icon.gif
-Content Type: image/gif
-
-Uri: http://b/pdf/web/images/loading-small.png
-File Name: C:\Downloaded Web Sites\b\pdf\web\images\loading-small.png
-Content Type: image/png
-
-Uri: http://b/pdf/web/images/loading-small@2x.png
-File Name: C:\Downloaded Web Sites\b\pdf\web\images\loading-small@2x.png
-Content Type: image/png
-
-Uri: http://b/pdf/web/images/secondaryToolbarButton-documentProperties.png
-File Name: C:\Downloaded Web Sites\b\pdf\web\images\secondaryToolbarButton-documentProperties.png
-Content Type: image/png
-
-Uri: http://b/pdf/web/images/secondaryToolbarButton-documentProperties@2x.png
-File Name: C:\Downloaded Web Sites\b\pdf\web\images\secondaryToolbarButton-documentProperties@2x.png
-Content Type: image/png
-
-Uri: http://b/pdf/web/images/secondaryToolbarButton-firstPage.png
-File Name: C:\Downloaded Web Sites\b\pdf\web\images\secondaryToolbarButton-firstPage.png
-Content Type: image/png
-
-Uri: http://b/pdf/web/images/secondaryToolbarButton-firstPage@2x.png
-File Name: C:\Downloaded Web Sites\b\pdf\web\images\secondaryToolbarButton-firstPage@2x.png
-Content Type: image/png
-
-Uri: http://b/pdf/web/images/secondaryToolbarButton-handTool.png
-File Name: C:\Downloaded Web Sites\b\pdf\web\images\secondaryToolbarButton-handTool.png
-Content Type: image/png
-
-Uri: http://b/pdf/web/images/secondaryToolbarButton-handTool@2x.png
-File Name: C:\Downloaded Web Sites\b\pdf\web\images\secondaryToolbarButton-handTool@2x.png
-Content Type: image/png
-
-Uri: http://b/pdf/web/images/secondaryToolbarButton-lastPage.png
-File Name: C:\Downloaded Web Sites\b\pdf\web\images\secondaryToolbarButton-lastPage.png
-Content Type: image/png
-
-Uri: http://b/pdf/web/images/secondaryToolbarButton-lastPage@2x.png
-File Name: C:\Downloaded Web Sites\b\pdf\web\images\secondaryToolbarButton-lastPage@2x.png
-Content Type: image/png
-
-Uri: http://b/pdf/web/images/secondaryToolbarButton-rotateCcw.png
-File Name: C:\Downloaded Web Sites\b\pdf\web\images\secondaryToolbarButton-rotateCcw.png
-Content Type: image/png
-
-Uri: http://b/pdf/web/images/secondaryToolbarButton-rotateCcw@2x.png
-File Name: C:\Downloaded Web Sites\b\pdf\web\images\secondaryToolbarButton-rotateCcw@2x.png
-Content Type: image/png
-
-Uri: http://b/pdf/web/images/secondaryToolbarButton-rotateCw.png
-File Name: C:\Downloaded Web Sites\b\pdf\web\images\secondaryToolbarButton-rotateCw.png
-Content Type: image/png
-
-Uri: http://b/pdf/web/images/secondaryToolbarButton-rotateCw@2x.png
-File Name: C:\Downloaded Web Sites\b\pdf\web\images\secondaryToolbarButton-rotateCw@2x.png
-Content Type: image/png
-
-Uri: http://b/pdf/web/images/shadow.png
-File Name: C:\Downloaded Web Sites\b\pdf\web\images\shadow.png
-Content Type: image/png
-
-Uri: http://b/pdf/web/images/texture.png
-File Name: C:\Downloaded Web Sites\b\pdf\web\images\texture.png
-Content Type: image/png
-
-Uri: http://b/pdf/web/images/toolbarButton-bookmark.png
-File Name: C:\Downloaded Web Sites\b\pdf\web\images\toolbarButton-bookmark.png
-Content Type: image/png
-
-Uri: http://b/pdf/web/images/toolbarButton-bookmark@2x.png
-File Name: C:\Downloaded Web Sites\b\pdf\web\images\toolbarButton-bookmark@2x.png
-Content Type: image/png
-
-Uri: http://b/pdf/web/images/toolbarButton-download.png
-File Name: C:\Downloaded Web Sites\b\pdf\web\images\toolbarButton-download.png
-Content Type: image/png
-
-Uri: http://b/pdf/web/images/toolbarButton-download@2x.png
-File Name: C:\Downloaded Web Sites\b\pdf\web\images\toolbarButton-download@2x.png
-Content Type: image/png
-
-Uri: http://b/pdf/web/images/toolbarButton-menuArrows.png
-File Name: C:\Downloaded Web Sites\b\pdf\web\images\toolbarButton-menuArrows.png
-Content Type: image/png
-
-Uri: http://b/pdf/web/images/toolbarButton-menuArrows@2x.png
-File Name: C:\Downloaded Web Sites\b\pdf\web\images\toolbarButton-menuArrows@2x.png
-Content Type: image/png
-
-Uri: http://b/pdf/web/images/toolbarButton-openFile.png
-File Name: C:\Downloaded Web Sites\b\pdf\web\images\toolbarButton-openFile.png
-Content Type: image/png
-
-Uri: http://b/pdf/web/images/toolbarButton-openFile@2x.png
-File Name: C:\Downloaded Web Sites\b\pdf\web\images\toolbarButton-openFile@2x.png
-Content Type: image/png
-
-Uri: http://b/pdf/web/images/toolbarButton-pageDown-rtl.png
-File Name: C:\Downloaded Web Sites\b\pdf\web\images\toolbarButton-pageDown-rtl.png
-Content Type: image/png
-
-Uri: http://b/pdf/web/images/toolbarButton-pageDown-rtl@2x.png
-File Name: C:\Downloaded Web Sites\b\pdf\web\images\toolbarButton-pageDown-rtl@2x.png
-Content Type: image/png
-
-Uri: http://b/pdf/web/images/toolbarButton-pageDown.png
-File Name: C:\Downloaded Web Sites\b\pdf\web\images\toolbarButton-pageDown.png
-Content Type: image/png
-
-Uri: http://b/pdf/web/images/toolbarButton-pageDown@2x.png
-File Name: C:\Downloaded Web Sites\b\pdf\web\images\toolbarButton-pageDown@2x.png
-Content Type: image/png
-
-Uri: http://b/pdf/web/images/toolbarButton-pageUp-rtl.png
-File Name: C:\Downloaded Web Sites\b\pdf\web\images\toolbarButton-pageUp-rtl.png
-Content Type: image/png
-
-Uri: http://b/pdf/web/images/toolbarButton-pageUp-rtl@2x.png
-File Name: C:\Downloaded Web Sites\b\pdf\web\images\toolbarButton-pageUp-rtl@2x.png
-Content Type: image/png
-
-Uri: http://b/pdf/web/images/toolbarButton-pageUp.png
-File Name: C:\Downloaded Web Sites\b\pdf\web\images\toolbarButton-pageUp.png
-Content Type: image/png
-
-Uri: http://b/pdf/web/images/toolbarButton-pageUp@2x.png
-File Name: C:\Downloaded Web Sites\b\pdf\web\images\toolbarButton-pageUp@2x.png
-Content Type: image/png
-
-Uri: http://b/pdf/web/images/toolbarButton-presentationMode.png
-File Name: C:\Downloaded Web Sites\b\pdf\web\images\toolbarButton-presentationMode.png
-Content Type: image/png
-
-Uri: http://b/pdf/web/images/toolbarButton-presentationMode@2x.png
-File Name: C:\Downloaded Web Sites\b\pdf\web\images\toolbarButton-presentationMode@2x.png
-Content Type: image/png
-
-Uri: http://b/pdf/web/images/toolbarButton-print.png
-File Name: C:\Downloaded Web Sites\b\pdf\web\images\toolbarButton-print.png
-Content Type: image/png
-
-Uri: http://b/pdf/web/images/toolbarButton-print@2x.png
-File Name: C:\Downloaded Web Sites\b\pdf\web\images\toolbarButton-print@2x.png
-Content Type: image/png
-
-Uri: http://b/pdf/web/images/toolbarButton-search.png
-File Name: C:\Downloaded Web Sites\b\pdf\web\images\toolbarButton-search.png
-Content Type: image/png
-
-Uri: http://b/pdf/web/images/toolbarButton-search@2x.png
-File Name: C:\Downloaded Web Sites\b\pdf\web\images\toolbarButton-search@2x.png
-Content Type: image/png
-
-Uri: http://b/pdf/web/images/toolbarButton-secondaryToolbarToggle-rtl.png
-File Name: C:\Downloaded Web Sites\b\pdf\web\images\toolbarButton-secondaryToolbarToggle-rtl.png
-Content Type: image/png
-
-Uri: http://b/pdf/web/images/toolbarButton-secondaryToolbarToggle-rtl@2x.png
-File Name: C:\Downloaded Web Sites\b\pdf\web\images\toolbarButton-secondaryToolbarToggle-rtl@2x.png
-Content Type: image/png
-
-Uri: http://b/pdf/web/images/toolbarButton-secondaryToolbarToggle.png
-File Name: C:\Downloaded Web Sites\b\pdf\web\images\toolbarButton-secondaryToolbarToggle.png
-Content Type: image/png
-
-Uri: http://b/pdf/web/images/toolbarButton-secondaryToolbarToggle@2x.png
-File Name: C:\Downloaded Web Sites\b\pdf\web\images\toolbarButton-secondaryToolbarToggle@2x.png
-Content Type: image/png
-
-Uri: http://b/pdf/web/images/toolbarButton-sidebarToggle-rtl.png
-File Name: C:\Downloaded Web Sites\b\pdf\web\images\toolbarButton-sidebarToggle-rtl.png
-Content Type: image/png
-
-Uri: http://b/pdf/web/images/toolbarButton-sidebarToggle-rtl@2x.png
-File Name: C:\Downloaded Web Sites\b\pdf\web\images\toolbarButton-sidebarToggle-rtl@2x.png
-Content Type: image/png
-
-Uri: http://b/pdf/web/images/toolbarButton-sidebarToggle.png
-File Name: C:\Downloaded Web Sites\b\pdf\web\images\toolbarButton-sidebarToggle.png
-Content Type: image/png
-
-Uri: http://b/pdf/web/images/toolbarButton-sidebarToggle@2x.png
-File Name: C:\Downloaded Web Sites\b\pdf\web\images\toolbarButton-sidebarToggle@2x.png
-Content Type: image/png
-
-Uri: http://b/pdf/web/images/toolbarButton-viewAttachments.png
-File Name: C:\Downloaded Web Sites\b\pdf\web\images\toolbarButton-viewAttachments.png
-Content Type: image/png
-
-Uri: http://b/pdf/web/images/toolbarButton-viewAttachments@2x.png
-File Name: C:\Downloaded Web Sites\b\pdf\web\images\toolbarButton-viewAttachments@2x.png
-Content Type: image/png
-
-Uri: http://b/pdf/web/images/toolbarButton-viewOutline-rtl.png
-File Name: C:\Downloaded Web Sites\b\pdf\web\images\toolbarButton-viewOutline-rtl.png
-Content Type: image/png
-
-Uri: http://b/pdf/web/images/toolbarButton-viewOutline-rtl@2x.png
-File Name: C:\Downloaded Web Sites\b\pdf\web\images\toolbarButton-viewOutline-rtl@2x.png
-Content Type: image/png
-
-Uri: http://b/pdf/web/images/toolbarButton-viewOutline.png
-File Name: C:\Downloaded Web Sites\b\pdf\web\images\toolbarButton-viewOutline.png
-Content Type: image/png
-
-Uri: http://b/pdf/web/images/toolbarButton-viewOutline@2x.png
-File Name: C:\Downloaded Web Sites\b\pdf\web\images\toolbarButton-viewOutline@2x.png
-Content Type: image/png
-
-Uri: http://b/pdf/web/images/toolbarButton-viewThumbnail.png
-File Name: C:\Downloaded Web Sites\b\pdf\web\images\toolbarButton-viewThumbnail.png
-Content Type: image/png
-
-Uri: http://b/pdf/web/images/toolbarButton-viewThumbnail@2x.png
-File Name: C:\Downloaded Web Sites\b\pdf\web\images\toolbarButton-viewThumbnail@2x.png
-Content Type: image/png
-
-Uri: http://b/pdf/web/images/toolbarButton-zoomIn.png
-File Name: C:\Downloaded Web Sites\b\pdf\web\images\toolbarButton-zoomIn.png
-Content Type: image/png
-
-Uri: http://b/pdf/web/images/toolbarButton-zoomIn@2x.png
-File Name: C:\Downloaded Web Sites\b\pdf\web\images\toolbarButton-zoomIn@2x.png
-Content Type: image/png
-
-Uri: http://b/pdf/web/images/toolbarButton-zoomOut.png
-File Name: C:\Downloaded Web Sites\b\pdf\web\images\toolbarButton-zoomOut.png
-Content Type: image/png
-
-Uri: http://b/pdf/web/images/toolbarButton-zoomOut@2x.png
-File Name: C:\Downloaded Web Sites\b\pdf\web\images\toolbarButton-zoomOut@2x.png
-Content Type: image/png
-
-Uri: http://b/pdf/web/l10n.js
-File Name: C:\Downloaded Web Sites\b\pdf\web\l10n.js
-Content Type: application/javascript
-
-Uri: http://b/pdf/web/locale/locale.properties
-File Name: C:\Downloaded Web Sites\b\pdf\web\locale\locale.properties
-Content Type: application/octet-stream
-
-Uri: http://b/pdf/web/viewer.css
-File Name: C:\Downloaded Web Sites\b\pdf\web\viewer.css
-Content Type: text/css
-
-Uri: http://b/pdf/web/viewer.html?file=/assets/file/2020/08/湛教函〔2020〕159号：关于公布湛江市2020年高中阶段学校录取控制分数线的通知.pdf
-File Name: C:\Downloaded Web Sites\b\pdf\web\viewer-19.html
-Content Type: text/html
-
-Uri: http://b/pdf/web/viewer.html?file=/assets/file/2024/12/倜傥管区/倜傥上村介绍.pdf
-File Name: C:\Downloaded Web Sites\b\pdf\web\viewer.html
-Content Type: text/html
-
-Uri: http://b/pdf/web/viewer.html?file=/assets/file/2024/12/倜傥管区/倜傥村村规民约.pdf
-File Name: C:\Downloaded Web Sites\b\pdf\web\viewer-1.html
-Content Type: text/html
-
-Uri: http://b/pdf/web/viewer.js
-File Name: C:\Downloaded Web Sites\b\pdf\web\viewer.js
-Content Type: application/javascript
-
-Uri: https://api.dujin.org/bing/1920.php
-File Name: C:\Downloaded Web Sites\b\bing\1920.php
-Content Type: image/jpeg
 
