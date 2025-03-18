@@ -343,7 +343,145 @@ document.body.addEventListener('input', POWERMODE);
 </div>
 <div id="wrap">   <div id="content">
     <div id="main">
-	<div class="class"><i class="fa fa-folder-open"></i><span style="padding-left: 10px;">生活随笔</span><span style="padding-left: 10px;">共 183 篇</span></div>	    	 
+	<div class="class"><i class="fa fa-folder-open"></i><span style="padding-left: 10px;">生活随笔</span><span style="padding-left: 10px;">共 184 篇</span></div>	    	 
+      <div id="log-746" class="post_list">
+	        <div class="excerpt">
+	  	  <div class="textPost" data-url="/b0/746.html"> <table border="1" style="border-collapse: collapse; text-align: center; width: 100%;" class=""> 
+   <thead> 
+    <tr> 
+     <th style="width: 100px;"><strong>类别</strong></th> 
+     <th><strong>推荐食物</strong></th> 
+    </tr> 
+   </thead> 
+   <tbody> 
+    <tr> 
+     <td style="text-align: right;padding-right: 10px;">主食</td> 
+     <td style="text-align: left;padding-left: 10px;">藜麦、荞麦、燕麦、玉米、糙米</td> 
+    </tr> 
+    <tr> 
+     <td style="text-align: right;padding-right: 10px;">蔬菜</td> 
+     <td style="text-align: left;padding-left: 10px;">魔芋、黄瓜、菠菜、西兰花、油麦菜、莴苣、白菜、生菜、西葫芦、冬瓜、豆芽、黑木耳、海带、蘑菇、番薯叶、空心菜、芦笋、芹菜、苦瓜</td> 
+    </tr> 
+    <tr> 
+     <td style="text-align: right;padding-right: 10px;">水果</td> 
+     <td style="text-align: left;padding-left: 10px;">车厘子、火龙果、柚子、桃子、苹果、梨、草莓、橙、耙耙柑、龙眼、猕猴桃、蓝莓</td> 
+    </tr> 
+    <tr> 
+     <td style="text-align: right;padding-right: 10px;">蛋白质</td> 
+     <td style="text-align: left;padding-left: 10px;">鸡肉、鸭肉、鹅肉、猪肉、羊肉、鱼肉、鸡蛋、豆腐、豆类</td> 
+    </tr> 
+    <tr> 
+     <td style="text-align: right;padding-right: 10px;">健康脂肪</td> 
+     <td style="text-align: left;padding-left: 10px;">橄榄油、花生油、坚果（适量：夏威夷果、榛子、花生、碧根果（山核桃）、核桃、杏仁、巴旦木、松子、开心果、腰果）、深海鱼类</td> 
+    </tr> 
+    <tr> 
+     <td style="text-align: right;padding-right: 10px;">乳制品</td> 
+     <td style="text-align: left;padding-left: 10px;">低脂牛奶、酸奶（无糖）</td> 
+    </tr> 
+   </tbody> 
+  </table> 
+ <center>1️⃣空 腹3.9-6.1毫摩尔/升 2️⃣餐后1小时6.7-9.4毫摩/升 3️⃣餐后2小时≤7.8毫摩/升<br>
+   <span id="xtClocks" style="color: red;" title="2022-07-01" alt="2022-07-01">2 年 7 月 2 天 0 时 46 分 56 秒</span></center>  
+ 
+<script language="JavaScript" type="text/JavaScript">
+function showdiv(targetid,objN){
+   
+      var target=document.getElementById(targetid);
+      var clicktext=document.getElementById(objN)
+
+            if (target.style.display=="block"){
+                target.style.display="none";
+  
+
+            } else {
+                target.style.display="block";
+            }
+   
+}
+</script> 
+  <script language="javascript">
+        // 判断是否为闰年的函数
+        function isLeapYear(year) {
+            return (year % 4 === 0 && year % 100!== 0) || year % 400 === 0;
+        }
+
+        // 计算两个日期之间时间差，并精确计算月份差的函数
+        function calculateTimeDifference(startDate, endDate) {
+            const diffInMilliseconds = endDate - startDate;
+
+            // 先计算完整的年份差
+            const years = Math.floor(diffInMilliseconds / (1000 * 60 * 60 * 24 * 365));
+            // 扣除已计算的年份对应的毫秒数，得到剩余毫秒数用于后续计算
+            let remainingMilliseconds = diffInMilliseconds % (1000 * 60 * 60 * 24 * 365);
+
+            // 计算月份差，通过逐月递减剩余毫秒数并统计月份
+            let months = 0;
+            const monthsInYear = [31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31];
+
+            const startYear = startDate.getFullYear();
+            for (let i = 0; i < 12; i++) {
+                const daysInMonth = i === 1 && isLeapYear(startYear + years)? 29 : monthsInYear[i];
+                const millisecondsInMonth = 1000 * 60 * 60 * 24 * daysInMonth;
+                if (remainingMilliseconds >= millisecondsInMonth) {
+                    months++;
+                    remainingMilliseconds -= millisecondsInMonth;
+                } else {
+                    break;
+                }
+            }
+
+            // 计算天数差
+            const days = Math.floor(remainingMilliseconds / (1000 * 60 * 60 * 24));
+            remainingMilliseconds %= (1000 * 60 * 60 * 24);
+
+            // 计算小时差
+            const hours = Math.floor(remainingMilliseconds / (1000 * 60 * 60));
+            remainingMilliseconds %= (1000 * 60 * 60);
+
+            // 计算分钟差
+            const minutes = Math.floor(remainingMilliseconds / (1000 * 60));
+            remainingMilliseconds %= (1000 * 60);
+
+            // 计算秒数差
+            const seconds = Math.floor(remainingMilliseconds / 1000);
+
+            return {
+                years,
+                months,
+                days,
+                hours,
+                minutes,
+                seconds
+            };
+        }
+
+        function updateClock(elementId, startDateStr) {
+            const startDate = new Date(startDateStr);
+            startDate.setTime(startDate.getTime() + 8 * 60 * 60 * 1000); // 转换为北京时间
+
+            function updateTimeDisplay() {
+                const endDate = new Date();
+                endDate.setTime(endDate.getTime() + 8 * 60 * 60 * 1000); // 转换为北京时间
+
+                const { years, months, days, hours, minutes, seconds } = calculateTimeDifference(startDate, endDate);
+
+                document.getElementById(elementId).innerHTML = `${years} 年 ${months} 月 ${days} 天 ${hours} 时 ${minutes} 分 ${seconds} 秒`;
+            }
+
+            // 每隔1秒更新一次时间差显示
+            setInterval(updateTimeDisplay, 1000);
+        }
+	
+        updateClock("xtClocks", "2022-07-01T00:00:00");
+    </script></div>	  
+	  </div>	
+	  <div class="meta">
+	  <p class="time">2022-07-01 通过网页 
+	  	  	  	  </p>
+      <p class="navPost"><i class="iconfont icon-view"></i> 浏览(391) <a href="/b0/746.html#comments"><i class="iconfont icon-com"></i> 评论(0)</a> 
+	 
+	</p></div></div> 
+	 
       <div id="log-744" class="post_list">
 	        <div class="excerpt">
 	  	  <div class="textPost" data-url="/b0/744.html">【通知】各小学：在“人事档案管理审核”工作中，我镇小学2016年已评、聘职称教师的档案中全部缺失《教师职称制度改革人员过渡登记表》。根据人社局、教育局的要求，必须及时补办职称过渡登记表，现要求如下：<br><br>
@@ -353,7 +491,7 @@ document.body.addEventListener('input', POWERMODE);
 	  <div class="meta">
 	  <p class="time">2022-06-21 通过网页 
 	  	  	  	  </p>
-      <p class="navPost"><i class="iconfont icon-view"></i> 浏览(1532) <a href="/b0/744.html#comments"><i class="iconfont icon-com"></i> 评论(0)</a> 
+      <p class="navPost"><i class="iconfont icon-view"></i> 浏览(1565) <a href="/b0/744.html#comments"><i class="iconfont icon-com"></i> 评论(0)</a> 
 	 
 	</p></div></div> 
 	 
@@ -366,7 +504,7 @@ document.body.addEventListener('input', POWERMODE);
 	  <div class="meta">
 	  <p class="time">2022-06-10 通过网页 
 	  	  	  	  </p>
-      <p class="navPost"><i class="iconfont icon-view"></i> 浏览(1812) <a href="/b0/741.html#comments"><i class="iconfont icon-com"></i> 评论(0)</a> 
+      <p class="navPost"><i class="iconfont icon-view"></i> 浏览(1849) <a href="/b0/741.html#comments"><i class="iconfont icon-com"></i> 评论(0)</a> 
 	 
 	</p></div></div> 
 	 
@@ -382,7 +520,7 @@ document.body.addEventListener('input', POWERMODE);
 	  <div class="meta">
 	  <p class="time">2022-06-07 通过网页 
 	  	  	  	  </p>
-      <p class="navPost"><i class="iconfont icon-view"></i> 浏览(3691) <a href="/b0/738.html#comments"><i class="iconfont icon-com"></i> 评论(0)</a> 
+      <p class="navPost"><i class="iconfont icon-view"></i> 浏览(3718) <a href="/b0/738.html#comments"><i class="iconfont icon-com"></i> 评论(0)</a> 
 	 
 	</p></div></div> 
 	 
@@ -393,7 +531,7 @@ document.body.addEventListener('input', POWERMODE);
 	  <div class="meta">
 	  <p class="time">2022-05-28 通过网页 
 	  	  	  	  </p>
-      <p class="navPost"><i class="iconfont icon-view"></i> 浏览(1402) <a href="/b0/733.html#comments"><i class="iconfont icon-com"></i> 评论(0)</a> 
+      <p class="navPost"><i class="iconfont icon-view"></i> 浏览(1434) <a href="/b0/733.html#comments"><i class="iconfont icon-com"></i> 评论(0)</a> 
 	 
 	</p></div></div> 
 	 
@@ -409,7 +547,7 @@ document.body.addEventListener('input', POWERMODE);
 	  <div class="meta">
 	  <p class="time">2022-05-28 通过网页 
 	  	  	  	  </p>
-      <p class="navPost"><i class="iconfont icon-view"></i> 浏览(1610) <a href="/b0/732.html#comments"><i class="iconfont icon-com"></i> 评论(0)</a> 
+      <p class="navPost"><i class="iconfont icon-view"></i> 浏览(1639) <a href="/b0/732.html#comments"><i class="iconfont icon-com"></i> 评论(0)</a> 
 	 
 	</p></div></div> 
 	 
@@ -427,7 +565,7 @@ document.body.addEventListener('input', POWERMODE);
 	  <div class="meta">
 	  <p class="time">2022-05-28 通过网页 
 	  	  	  	  </p>
-      <p class="navPost"><i class="iconfont icon-view"></i> 浏览(2314) <a href="/b0/731.html#comments"><i class="iconfont icon-com"></i> 评论(0)</a> 
+      <p class="navPost"><i class="iconfont icon-view"></i> 浏览(2340) <a href="/b0/731.html#comments"><i class="iconfont icon-com"></i> 评论(0)</a> 
 	 
 	</p></div></div> 
 	 
@@ -442,7 +580,7 @@ document.body.addEventListener('input', POWERMODE);
 	  <div class="meta">
 	  <p class="time">2022-05-24 通过网页 
 	  	  	  	  </p>
-      <p class="navPost"><i class="iconfont icon-view"></i> 浏览(1619) <a href="/b0/728.html#comments"><i class="iconfont icon-com"></i> 评论(0)</a> 
+      <p class="navPost"><i class="iconfont icon-view"></i> 浏览(1642) <a href="/b0/728.html#comments"><i class="iconfont icon-com"></i> 评论(0)</a> 
 	 
 	</p></div></div> 
 	 
@@ -455,7 +593,7 @@ document.body.addEventListener('input', POWERMODE);
 	  <div class="meta">
 	  <p class="time">2022-04-04 通过网页 
 	  	  	  	  </p>
-      <p class="navPost"><i class="iconfont icon-view"></i> 浏览(5625) <a href="/b0/724.html#comments"><i class="iconfont icon-com"></i> 评论(0)</a> 
+      <p class="navPost"><i class="iconfont icon-view"></i> 浏览(5687) <a href="/b0/724.html#comments"><i class="iconfont icon-com"></i> 评论(0)</a> 
 	 
 	</p></div></div> 
 	 
@@ -466,22 +604,11 @@ document.body.addEventListener('input', POWERMODE);
 	  <div class="meta">
 	  <p class="time">2022-03-11 通过网页 
 	  	  	  	  </p>
-      <p class="navPost"><i class="iconfont icon-view"></i> 浏览(2137) <a href="/b0/723.html#comments"><i class="iconfont icon-com"></i> 评论(0)</a> 
-	 
-	</p></div></div> 
-	 
-      <div id="log-722" class="post_list">
-	        <div class="excerpt">
-	  	  <div class="textPost" data-url="/b0/722.html">【温馨提示】各小学：1、2022年春季学生作业本费：一、二年级每生6元，三至六年级每生10元；2、2022年春季三至六年级教辅材料费：三年级语、数、英合计17.95，开具电子票据价：17.9元；四年级语、数、英合计17.95，开具电子票据价：17.9元；五年级语、数、英合计26.57，开具电子票据价：26.5元；六年级语、数、英合计25.60，开具电子票据价：25.6元。请各校先记住开具电子票据价，到时如何收款缴款、如何在电脑中开电子票据再由何梓荣老师负责指导。［杨家镇中心管理组2022年2月11日上午发送］</div>	  
-	  </div>	
-	  <div class="meta">
-	  <p class="time">2022-02-11 通过网页 
-	  	  	  	  </p>
-      <p class="navPost"><i class="iconfont icon-view"></i> 浏览(2004) <a href="/b0/722.html#comments"><i class="iconfont icon-com"></i> 评论(0)</a> 
+      <p class="navPost"><i class="iconfont icon-view"></i> 浏览(2177) <a href="/b0/723.html#comments"><i class="iconfont icon-com"></i> 评论(0)</a> 
 	 
 	</p></div></div> 
 	<div class="pagination">
-		<span class="info"> 共计：183 条记录 每页:10条</span><a href='list-0-1.html'>首页</a><a href='list-0-6.html'>&lt;</a><a href='list-0-5.html'>5</a><a href='list-0-6.html'>6</a><span class="current">7</span><a href='list-0-8.html'>8</a><a href='list-0-9.html'>9</a><a href='list-0-8.html'>&gt;</a><a href='list-0-19.html'>尾页</a>	</div>
+		<span class="info"> 共计：184 条记录 每页:10条</span><a href='list-0-1.html'>首页</a><a href='list-0-6.html'>&lt;</a><a href='list-0-5.html'>5</a><a href='list-0-6.html'>6</a><span class="current">7</span><a href='list-0-8.html'>8</a><a href='list-0-9.html'>9</a><a href='list-0-8.html'>&gt;</a><a href='list-0-19.html'>尾页</a>	</div>
     </div> 
 	<div id="sidebar"> 
      <div class="sidebar">
