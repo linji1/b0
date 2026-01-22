@@ -61,7 +61,6 @@
 <script type="text/javascript" language="javascript" src="/assets/js/jquery.min.js"></script>
 <link rel="stylesheet" href="/assets/qblog/fontawesome.min.css">
 <link rel="icon" href="/favicon.ico" type="image/x-icon">
-<script src="/assets/js/readmore.js" type="text/javascript"></script>
 <!-- fancyBox 5 -->
 <link rel="stylesheet" href="/assets/js/fancybox/fancybox.min.css" media="all" onload="this.media='all'" />
 <script src="/assets/js/fancybox/fancybox.umd.min.js"></script>
@@ -585,38 +584,7 @@ document.body.addEventListener('input', POWERMODE);
   <div class="breadcrumb" style="margin-top: -5px;"><svg xmlns="http://www.w3.org/2000/svg" width="16px" height="16px" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-home" style="width: 10px;   width: 14px;height: 14px;vertical-align: -2px;
 "><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path><polyline points="9 22 9 12 15 12 15 22"></polyline></svg><a href="/" style="padding-left: 5px;color: #7d8c8e;">首页</a>
 <span>/</span><a href="/b0/list-0.html" style="color: #7d8c8e;">生活随笔</a><span>/</span>正文</div>
-<audio id="audioPlayer" controls preload style="max-width: 50%;opacity: .4;float: right;height: 24px;margin-top: -6px;" title="收听本文" src="https://dict.youdao.com/dictvoice?le=zh&audio=人到晚年之后，不要向儿女要以下三样东西，对你一点好处也没有。当然，这三点确实是非常重要的建议，对于人到晚年的父母来说，它们可以帮助建立更加健康和尊重的关系。还请您耐心的看完这个文章您就明白了第一点，不要向儿女要超出他们能力的金钱。这是一个非常实际的问题，因为现在的年轻人面临的经济压力非常大，他们可能需要自己的空间和时间去处理自己的经济问题。身体健康很重要，但是如果你一味地要求儿女必须满足你的物质需求，可能会引发他们的反感和不满，这不仅会影响他们的生活，也会破坏你们之间的关系。第二点，不要过于强势。老年人可能会因为过去的经验和知识而感到自信和权威，但是这并不意味着你必须强迫你的儿女服从你的观点。">
-  您的浏览器不支持 audio 元素。
-</audio>
 <span id="translate" style="border: 0px;cursor: pointer;float: right;color: #7d8c8e;font-size: 12px;margin-top: -5px;"></span>
-
-    <script>
-        const audioPlayer = document.getElementById('audioPlayer');
-        const audioFiles = [
-            'https://dict.youdao.com/dictvoice?le=zh&audio=人到晚年之后，不要向儿女要以下三样东西，对你一点好处也没有。当然，这三点确实是非常重要的建议，对于人到晚年的父母来说，它们可以帮助建立更加健康和尊重的关系。还请您耐心的看完这个文章您就明白了第一点，不要向儿女要超出他们能力的金钱。这是一个非常实际的问题，因为现在的年轻人面临的经济压力非常大，他们可能需要自己的空间和时间去处理自己的经济问题。身体健康很重要，但是如果你一味地要求儿女必须满足你的物质需求，可能会引发他们的反感和不满，这不仅会影响他们的生活，也会破坏你们之间的关系。第二点，不要过于强势。老年人可能会因为过去的经验和知识而感到自信和权威，但是这并不意味着你必须强迫你的儿女服从你的观点。','https://dict.youdao.com/dictvoice?le=zh&audio=每个人都有自己的生活方式和价值观，你的建议可以提供，但不要强迫他们接受。过于强势只会引起他们的反感和疏远。第三点，不要期待太多的回报。养育孩子是父母的责任和义务，这不应该被转化为对孩子的经济或情感回报的期望。我们作为父母应该尽我们的责任和义务，而不应该期待太多的回报。如果我们过度强调我们对孩子的付出，可能会让孩子感到压力和反感，甚至可能导致他们的疏远。总的来说，这三点是非常重要的建议，可以帮助我们建立更加健康和尊重的关系。我们应该尊重孩子的独立性和自主性，给予他们足够的空间和时间，同时也应该珍惜我们作为父母的责任和义务。只有这样，我们才能真正享受到晚年的幸福和尊严。',        ];
-        let currentTrack = 0;
-
-        // 点击播放按钮时开始播放
-        function playAudio() {
-            if (currentTrack < audioFiles.length) {
-                audioPlayer.src = audioFiles[currentTrack];
-                audioPlayer.play();
-            } else {
-                audioPlayer.pause();
-            }
-        }
-
-        // 绑定播放按钮的点击事件
-        audioPlayer.addEventListener('click', playAudio);
-
-        // 监听播放结束事件
-        audioPlayer.addEventListener('ended', () => {
-            currentTrack++;
-            if (currentTrack < audioFiles.length) {
-                playAudio(); // 自动播放下一首
-            }
-        });
-    </script>
 
 <style type="text/css">
 	span#translate select {
@@ -645,11 +613,7 @@ document.body.addEventListener('input', POWERMODE);
 </p>
 
 <p>总的来说，这三点是非常重要的建议，可以帮助我们建立更加健康和尊重的关系。我们应该尊重孩子的独立性和自主性，给予他们足够的空间和时间，同时也应该珍惜我们作为父母的责任和义务。只有这样，我们才能真正享受到晚年的幸福和尊严。</p></div>
-<div class="readall_box">
-          <div class="read_more_mask"></div>
-          <a class="read_more_btn" target="_self">阅读全文 <i class="fa fa-angle-down" aria-hidden="true" style="font-size: 18px; color: #ca0c16;vertical-align:middle;"></i></a>
-      </div>
-<p class="time clb">生活随笔 2023-12-24 22:29:41 通过 网页 <i class="iconfont icon-view"></i> 浏览(1434) <span> <a href="javascript:printme()" target="_self" style="color: #999;"><i class="fa fa-print"></i> 打印</a></span></p>
+<p class="time clb">生活随笔 2023-12-24 22:29:41 通过 网页 <i class="iconfont icon-view"></i> 浏览(1561) <span> <a href="javascript:printme()" target="_self" style="color: #999;"><i class="fa fa-print"></i> 打印</a></span></p>
 <p class="navPost">  
 	<a href="JavaScript:history.back();">返回</a>&nbsp; <a href="JavaScript:DotRoll('#formpl')">我要评论</a></p></div></div>  
 <!-- 上一篇 下一篇开始 -->

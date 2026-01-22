@@ -61,7 +61,6 @@
 <script type="text/javascript" language="javascript" src="/assets/js/jquery.min.js"></script>
 <link rel="stylesheet" href="/assets/qblog/fontawesome.min.css">
 <link rel="icon" href="/favicon.ico" type="image/x-icon">
-<script src="/assets/js/readmore.js" type="text/javascript"></script>
 <!-- fancyBox 5 -->
 <link rel="stylesheet" href="/assets/js/fancybox/fancybox.min.css" media="all" onload="this.media='all'" />
 <script src="/assets/js/fancybox/fancybox.umd.min.js"></script>
@@ -585,38 +584,7 @@ document.body.addEventListener('input', POWERMODE);
   <div class="breadcrumb" style="margin-top: -5px;"><svg xmlns="http://www.w3.org/2000/svg" width="16px" height="16px" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-home" style="width: 10px;   width: 14px;height: 14px;vertical-align: -2px;
 "><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path><polyline points="9 22 9 12 15 12 15 22"></polyline></svg><a href="/" style="padding-left: 5px;color: #7d8c8e;">首页</a>
 <span>/</span><a href="/b0/list-0.html" style="color: #7d8c8e;">生活随笔</a><span>/</span>正文</div>
-<audio id="audioPlayer" controls preload style="max-width: 50%;opacity: .4;float: right;height: 24px;margin-top: -6px;" title="收听本文" src="https://dict.youdao.com/dictvoice?le=zh&audio=湛江中考成绩今天1600公布查分方式。湛江中考成绩今天1600公布查分方式湛江市教育局发布关于2020年初中毕业生学业考试成绩发布及申请复查的通知。湛江市中考成绩8月4日1600由市教育局统一发布，考生可通过粤省事小程序查询考试成绩。详情请看附件查询方式1在微信登录粤省事小程序首次登录可从微信发现功能页进入小程序页面进行搜索注册2在粤省事服务列表中，点击教育服务，进入教育服务界面3点击中考成绩查询，进入页面并输入准考证号及姓名4点击查询。湛江市教育局提醒考生如对本人成绩有疑问，可在8月5日1130前凭准考证到所在学校填写初中毕业生学业考试成绩复查申请表申请复查，过期不再受理体育科成绩及奖励优待">
-  您的浏览器不支持 audio 元素。
-</audio>
 <span id="translate" style="border: 0px;cursor: pointer;float: right;color: #7d8c8e;font-size: 12px;margin-top: -5px;"></span>
-
-    <script>
-        const audioPlayer = document.getElementById('audioPlayer');
-        const audioFiles = [
-            'https://dict.youdao.com/dictvoice?le=zh&audio=湛江中考成绩今天1600公布查分方式。湛江中考成绩今天1600公布查分方式湛江市教育局发布关于2020年初中毕业生学业考试成绩发布及申请复查的通知。湛江市中考成绩8月4日1600由市教育局统一发布，考生可通过粤省事小程序查询考试成绩。详情请看附件查询方式1在微信登录粤省事小程序首次登录可从微信发现功能页进入小程序页面进行搜索注册2在粤省事服务列表中，点击教育服务，进入教育服务界面3点击中考成绩查询，进入页面并输入准考证号及姓名4点击查询。湛江市教育局提醒考生如对本人成绩有疑问，可在8月5日1130前凭准考证到所在学校填写初中毕业生学业考试成绩复查申请表申请复查，过期不再受理体育科成绩及奖励优待','https://dict.youdao.com/dictvoice?le=zh&audio=结果已由考生本人确认，不再复查。各学校须于8月5日1430前将考生填写的初中毕业生学业考试成绩复查申请表按考生准考证号顺序汇总后送县市，区招考办。各县市，区招考办集中录入考生的申请复查成绩数据，于8月5日1700前用电子邮件发送到市招生考试委员会办公室邮箱52342290qqcom。市招生考试委员会办公室将于8月5一7日组织复查，于7日下午公布复查结果。',        ];
-        let currentTrack = 0;
-
-        // 点击播放按钮时开始播放
-        function playAudio() {
-            if (currentTrack < audioFiles.length) {
-                audioPlayer.src = audioFiles[currentTrack];
-                audioPlayer.play();
-            } else {
-                audioPlayer.pause();
-            }
-        }
-
-        // 绑定播放按钮的点击事件
-        audioPlayer.addEventListener('click', playAudio);
-
-        // 监听播放结束事件
-        audioPlayer.addEventListener('ended', () => {
-            currentTrack++;
-            if (currentTrack < audioFiles.length) {
-                playAudio(); // 自动播放下一首
-            }
-        });
-    </script>
 
 <style type="text/css">
 	span#translate select {
@@ -660,11 +628,7 @@ document.body.addEventListener('input', POWERMODE);
 各学校须于8月5日14:30前将考生填写的《初中毕业生学业考试成绩复查申请表》按考生准考证号顺序汇总后送县（市、区）招考办。<br><br>
 
 各县（市、区）招考办集中录入考生的申请复查成绩数据，于8月5日17：00前用电子邮件发送到市招生考试委员会办公室（邮箱52342290@qq.com)。市招生考试委员会办公室将于8月5一7日组织复查，于7日下午公布复查结果。</div>
-<div class="readall_box">
-          <div class="read_more_mask"></div>
-          <a class="read_more_btn" target="_self">阅读全文 <i class="fa fa-angle-down" aria-hidden="true" style="font-size: 18px; color: #ca0c16;vertical-align:middle;"></i></a>
-      </div>
-<p class="time clb">生活随笔 2020-08-04 15:14:53 通过 网页 <i class="iconfont icon-view"></i> 浏览(3829) <span> <a href="javascript:printme()" target="_self" style="color: #999;"><i class="fa fa-print"></i> 打印</a></span></p>
+<p class="time clb">生活随笔 2020-08-04 15:14:53 通过 网页 <i class="iconfont icon-view"></i> 浏览(3962) <span> <a href="javascript:printme()" target="_self" style="color: #999;"><i class="fa fa-print"></i> 打印</a></span></p>
 <p class="navPost">  
 	<a href="JavaScript:history.back();">返回</a>&nbsp; <a href="JavaScript:DotRoll('#formpl')">我要评论</a></p></div></div>  
 <!-- 上一篇 下一篇开始 -->

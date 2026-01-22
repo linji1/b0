@@ -61,7 +61,6 @@
 <script type="text/javascript" language="javascript" src="/assets/js/jquery.min.js"></script>
 <link rel="stylesheet" href="/assets/qblog/fontawesome.min.css">
 <link rel="icon" href="/favicon.ico" type="image/x-icon">
-<script src="/assets/js/readmore.js" type="text/javascript"></script>
 <!-- fancyBox 5 -->
 <link rel="stylesheet" href="/assets/js/fancybox/fancybox.min.css" media="all" onload="this.media='all'" />
 <script src="/assets/js/fancybox/fancybox.umd.min.js"></script>
@@ -585,38 +584,7 @@ document.body.addEventListener('input', POWERMODE);
   <div class="breadcrumb" style="margin-top: -5px;"><svg xmlns="http://www.w3.org/2000/svg" width="16px" height="16px" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-home" style="width: 10px;   width: 14px;height: 14px;vertical-align: -2px;
 "><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path><polyline points="9 22 9 12 15 12 15 22"></polyline></svg><a href="/" style="padding-left: 5px;color: #7d8c8e;">首页</a>
 <span>/</span><a href="/b0/list-0.html" style="color: #7d8c8e;">生活随笔</a><span>/</span>正文</div>
-<audio id="audioPlayer" controls preload style="max-width: 50%;opacity: .4;float: right;height: 24px;margin-top: -6px;" title="收听本文" src="https://dict.youdao.com/dictvoice?le=zh&audio=恭喜，恭喜六年级有五位同学复试。今天接到通知，我班有五位同学可以参加雷州一中实验二中的招生考试。考试时间2009713参考同学林树圣，林雅权，林梦巧，林秋花，林艾娜上午是考语文，下午是英语与数学。在这里祝愿他们都能考上。雷州一中校园网httpwwwgdlzyzcom2009年雷州一中第二实验初中招生考试成绩查询结果林秋花 准考证号  语文  数学 945 英语  总分 263林树圣 准考证号 2261 语文 80 数学 95 英语 58 总分 233林梦巧 准考证号 2262 语文 59 数学 73 英语 70 总分 202林艾娜 准考证号 2263 语文 65 数学 715 英语 85 总分">
-  您的浏览器不支持 audio 元素。
-</audio>
 <span id="translate" style="border: 0px;cursor: pointer;float: right;color: #7d8c8e;font-size: 12px;margin-top: -5px;"></span>
-
-    <script>
-        const audioPlayer = document.getElementById('audioPlayer');
-        const audioFiles = [
-            'https://dict.youdao.com/dictvoice?le=zh&audio=恭喜，恭喜六年级有五位同学复试。今天接到通知，我班有五位同学可以参加雷州一中实验二中的招生考试。考试时间2009713参考同学林树圣，林雅权，林梦巧，林秋花，林艾娜上午是考语文，下午是英语与数学。在这里祝愿他们都能考上。雷州一中校园网httpwwwgdlzyzcom2009年雷州一中第二实验初中招生考试成绩查询结果林秋花 准考证号  语文  数学 945 英语  总分 263林树圣 准考证号 2261 语文 80 数学 95 英语 58 总分 233林梦巧 准考证号 2262 语文 59 数学 73 英语 70 总分 202林艾娜 准考证号 2263 语文 65 数学 715 英语 85 总分','https://dict.youdao.com/dictvoice?le=zh&audio= 2215林雅权 准考证号 2264 语文 69 数学 97 英语 545 总分 2205雷州一中第二实验初中2009年初一新生录取公告录取类别录取人数录取资格线收费标准代收费含校服费，军训费住宿费A，正取初中生200人240分一次性收学杂费费12万元或者期收费2500元学期330元750元学期B，初高中连读生待教育局审批100人260分初中阶段一次性收费12万元,审批后补收学杂费8000元330元750元学期C，公费生100人278分免收学杂费330元750元学期gallery1 margin autogallery1 galleryitem float leftmargintop 10px','https://dict.youdao.com/dictvoice?le=zh&audio=textalign centerwidth 50gallery1 img border 2px solid cfcfcfgallery1 gallerycaption marginleft 0',        ];
-        let currentTrack = 0;
-
-        // 点击播放按钮时开始播放
-        function playAudio() {
-            if (currentTrack < audioFiles.length) {
-                audioPlayer.src = audioFiles[currentTrack];
-                audioPlayer.play();
-            } else {
-                audioPlayer.pause();
-            }
-        }
-
-        // 绑定播放按钮的点击事件
-        audioPlayer.addEventListener('click', playAudio);
-
-        // 监听播放结束事件
-        audioPlayer.addEventListener('ended', () => {
-            currentTrack++;
-            if (currentTrack < audioFiles.length) {
-                playAudio(); // 自动播放下一首
-            }
-        });
-    </script>
 
 <style type="text/css">
 	span#translate select {
@@ -735,11 +703,7 @@ document.body.addEventListener('input', POWERMODE);
 	margin-left: 0;
 }
 </style></div>
-<div class="readall_box">
-          <div class="read_more_mask"></div>
-          <a class="read_more_btn" target="_self">阅读全文 <i class="fa fa-angle-down" aria-hidden="true" style="font-size: 18px; color: #ca0c16;vertical-align:middle;"></i></a>
-      </div>
-<p class="time clb">生活随笔 2009-07-12 23:17:39 通过 网页 <i class="iconfont icon-view"></i> 浏览(4351) <span> <a href="javascript:printme()" target="_self" style="color: #999;"><i class="fa fa-print"></i> 打印</a></span></p>
+<p class="time clb">生活随笔 2009-07-12 23:17:39 通过 网页 <i class="iconfont icon-view"></i> 浏览(4455) <span> <a href="javascript:printme()" target="_self" style="color: #999;"><i class="fa fa-print"></i> 打印</a></span></p>
 <p class="navPost">  
 	<a href="JavaScript:history.back();">返回</a>&nbsp; <a href="JavaScript:DotRoll('#formpl')">我要评论</a></p></div></div>  
 <!-- 上一篇 下一篇开始 -->

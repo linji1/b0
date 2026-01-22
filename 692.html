@@ -61,7 +61,6 @@
 <script type="text/javascript" language="javascript" src="/assets/js/jquery.min.js"></script>
 <link rel="stylesheet" href="/assets/qblog/fontawesome.min.css">
 <link rel="icon" href="/favicon.ico" type="image/x-icon">
-<script src="/assets/js/readmore.js" type="text/javascript"></script>
 <!-- fancyBox 5 -->
 <link rel="stylesheet" href="/assets/js/fancybox/fancybox.min.css" media="all" onload="this.media='all'" />
 <script src="/assets/js/fancybox/fancybox.umd.min.js"></script>
@@ -585,38 +584,7 @@ document.body.addEventListener('input', POWERMODE);
   <div class="breadcrumb" style="margin-top: -5px;"><svg xmlns="http://www.w3.org/2000/svg" width="16px" height="16px" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-home" style="width: 10px;   width: 14px;height: 14px;vertical-align: -2px;
 "><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path><polyline points="9 22 9 12 15 12 15 22"></polyline></svg><a href="/" style="padding-left: 5px;color: #7d8c8e;">首页</a>
 <span>/</span><a href="/b0/list-0.html" style="color: #7d8c8e;">生活随笔</a><span>/</span>正文</div>
-<audio id="audioPlayer" controls preload style="max-width: 50%;opacity: .4;float: right;height: 24px;margin-top: -6px;" title="收听本文" src="https://dict.youdao.com/dictvoice?le=zh&audio=新时代中小学教师职业行为十项准则。一，坚定政治方向。坚持以新时代中国特色社会主义思想为指导，拥护中国共产党的领导，贯彻党的教育方针不得在教育教学活动中及其他场合有损害党中央权威，违背党的路线方针政策的言行。二，自觉爱国守法。忠于祖国，忠于人民，恪守宪法原则，遵守法律法规，依法履行教师职责不得损害国家利益，社会公共利益，或违背社会公序良俗。三，传播优秀文化。带头践行社会主义核心价值观，弘扬真善美，传递正能量不得通过课堂，论坛，讲座，信息网络及其他渠道发表，转发错误观点，或编造散布虚假信息，不良信息。四，潜心教书育人。落实立德树人根本任务，遵循教育规律和学生成长规律，因材施教，教学相长不得违反教学">
-  您的浏览器不支持 audio 元素。
-</audio>
 <span id="translate" style="border: 0px;cursor: pointer;float: right;color: #7d8c8e;font-size: 12px;margin-top: -5px;"></span>
-
-    <script>
-        const audioPlayer = document.getElementById('audioPlayer');
-        const audioFiles = [
-            'https://dict.youdao.com/dictvoice?le=zh&audio=新时代中小学教师职业行为十项准则。一，坚定政治方向。坚持以新时代中国特色社会主义思想为指导，拥护中国共产党的领导，贯彻党的教育方针不得在教育教学活动中及其他场合有损害党中央权威，违背党的路线方针政策的言行。二，自觉爱国守法。忠于祖国，忠于人民，恪守宪法原则，遵守法律法规，依法履行教师职责不得损害国家利益，社会公共利益，或违背社会公序良俗。三，传播优秀文化。带头践行社会主义核心价值观，弘扬真善美，传递正能量不得通过课堂，论坛，讲座，信息网络及其他渠道发表，转发错误观点，或编造散布虚假信息，不良信息。四，潜心教书育人。落实立德树人根本任务，遵循教育规律和学生成长规律，因材施教，教学相长不得违反教学','https://dict.youdao.com/dictvoice?le=zh&audio=纪律，敷衍教学，或擅自从事影响教育教学本职工作的兼职兼薪行为。五，关心爱护学生。严慈相济，诲人不倦，真心关爱学生，严格要求学生，做学生良师益友不得歧视，侮辱学生，严禁虐待，伤害学生。六，加强安全防范。增强安全意识，加强安全教育，保护学生安全，防范事故风险不得在教育教学活动中遇突发事件，面临危险时，不顾学生安危，擅离职守，自行逃离。七，坚持言行雅正。为人师表，以身作则，举止文明，作风正派，自重自爱不得与学生发生任何不正当关系，严禁任何形式的猥亵，性骚扰行为。八，秉持公平诚信。坚持原则，处事公道，光明磊落，为人正直不得在招生，考试，推优，保送及绩效考核，岗位聘用，职称评聘，评优评奖等工作中徇私舞弊','https://dict.youdao.com/dictvoice?le=zh&audio=，弄虚作假。九，坚守廉洁自律。严于律己，清廉从教不得索要，收受学生及家长财物或参加由学生及家长付费的宴请，旅游，娱乐休闲等活动，不得向学生推销图书报刊，教辅材料，社会保险或利用家长资源谋取私利。十，规范从教行为。勤勉敬业，乐于奉献，自觉抵制不良风气不得组织，参与有偿补课，或为校外培训机构和他人介绍生源，提供相关信息。十项准则的意义一，准则是教师职业行为的基本规范。师德师风是评价教师队伍素质的第一标准。长期以来，广大教师牢记使命，不忘初心，爱岗敬业，教书育人，改革创新，服务社会，作出了重大贡献，党和国家高度肯定，学生，家长和社会普遍尊重。二，立即部署扎实开展准则的学习贯彻。各地各校要立即行动，结','https://dict.youdao.com/dictvoice?le=zh&audio=合落实师德师风建设长效机制，开展准则的学习贯彻。要结合本地区，本学校实际进行细化，制定具体化的教师职业行为负面清单及失范行为处理办法，提高针对性，操作性。要做好宣传解读，坚持全覆盖，无死角，采取多种形式帮助广大教师全面理解和准确把握，做到人人应知应做，必知必做，真正把教书育人和自我修养结合起来，时刻自重，自省，自警，自励，自觉做以德立身，以德立学，以德施教，以德育德的楷模，维护教师职业形象，提振师道尊严。三，把准则要求落实到教师管理具体工作中。要把好教师入口关，在教师招聘，引进时组织开展准则的宣讲，确保每位新入职教师知准则，守底线。要将准则要求体现在教师聘用，聘任合同中，明确有关责任。要强化考','https://dict.youdao.com/dictvoice?le=zh&audio=核，在教师年度考核，职称评聘，推优评先，表彰奖励等工作中必须进行师德考核，实行师德失范一票否决。改进师德考核方式方法，避免形式化，随意化。完善师德考核指标体系，提高科学性，实效性。四，以有力措施坚决查处师德违规行为。各地各校要按照准则及相应的处理指导意见，处理办法要求，严格举报受理和违规查处。对于发生准则中禁止行为的，要态度坚决，一查到底，依法依规严肃惩处，绝不姑息。',        ];
-        let currentTrack = 0;
-
-        // 点击播放按钮时开始播放
-        function playAudio() {
-            if (currentTrack < audioFiles.length) {
-                audioPlayer.src = audioFiles[currentTrack];
-                audioPlayer.play();
-            } else {
-                audioPlayer.pause();
-            }
-        }
-
-        // 绑定播放按钮的点击事件
-        audioPlayer.addEventListener('click', playAudio);
-
-        // 监听播放结束事件
-        audioPlayer.addEventListener('ended', () => {
-            currentTrack++;
-            if (currentTrack < audioFiles.length) {
-                playAudio(); // 自动播放下一首
-            }
-        });
-    </script>
 
 <style type="text/css">
 	span#translate select {
@@ -668,11 +636,7 @@ document.body.addEventListener('input', POWERMODE);
 
 
 <strong>四、以有力措施坚决查处师德违规行为。</strong>各地各校要按照准则及相应的处理指导意见、处理办法要求，严格举报受理和违规查处。对于发生准则中禁止行为的，要态度坚决，一查到底，依法依规严肃惩处，绝不姑息。</div>
-<div class="readall_box">
-          <div class="read_more_mask"></div>
-          <a class="read_more_btn" target="_self">阅读全文 <i class="fa fa-angle-down" aria-hidden="true" style="font-size: 18px; color: #ca0c16;vertical-align:middle;"></i></a>
-      </div>
-<p class="time clb">生活随笔 2021-07-14 10:25:28 通过 网页 <i class="iconfont icon-view"></i> 浏览(3985) <span> <a href="javascript:printme()" target="_self" style="color: #999;"><i class="fa fa-print"></i> 打印</a></span></p>
+<p class="time clb">生活随笔 2021-07-14 10:25:28 通过 网页 <i class="iconfont icon-view"></i> 浏览(4141) <span> <a href="javascript:printme()" target="_self" style="color: #999;"><i class="fa fa-print"></i> 打印</a></span></p>
 <p class="navPost">  
 	<a href="JavaScript:history.back();">返回</a>&nbsp; <a href="JavaScript:DotRoll('#formpl')">我要评论</a></p></div></div>  
 <!-- 上一篇 下一篇开始 -->

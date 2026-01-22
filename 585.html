@@ -61,7 +61,6 @@
 <script type="text/javascript" language="javascript" src="/assets/js/jquery.min.js"></script>
 <link rel="stylesheet" href="/assets/qblog/fontawesome.min.css">
 <link rel="icon" href="/favicon.ico" type="image/x-icon">
-<script src="/assets/js/readmore.js" type="text/javascript"></script>
 <!-- fancyBox 5 -->
 <link rel="stylesheet" href="/assets/js/fancybox/fancybox.min.css" media="all" onload="this.media='all'" />
 <script src="/assets/js/fancybox/fancybox.umd.min.js"></script>
@@ -585,38 +584,7 @@ document.body.addEventListener('input', POWERMODE);
   <div class="breadcrumb" style="margin-top: -5px;"><svg xmlns="http://www.w3.org/2000/svg" width="16px" height="16px" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-home" style="width: 10px;   width: 14px;height: 14px;vertical-align: -2px;
 "><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path><polyline points="9 22 9 12 15 12 15 22"></polyline></svg><a href="/" style="padding-left: 5px;color: #7d8c8e;">首页</a>
 <span>/</span><a href="/b0/list-0.html" style="color: #7d8c8e;">生活随笔</a><span>/</span>正文</div>
-<audio id="audioPlayer" controls preload style="max-width: 50%;opacity: .4;float: right;height: 24px;margin-top: -6px;" title="收听本文" src="https://dict.youdao.com/dictvoice?le=zh&audio=旧2020年广东省教师公需课。更新于 20200716 0723想自学的老师，请参考下面信息。请用户凭身份证和密码，登录广东省教师继续教育管理信息系统 httpjspxgdedugovcnjspx 公需课学习栏目开展公需课学习，广东省教育综合服务平台粤教翔云公需课学习入口将关闭。以下信息只能做参考，学习网址请看上面内容。简略版在哪里学习1，学习网址httpglgdedugovcn2，学习平台晚上12点后无法访问，早上630才开始。3，今年公需课是nbsp30学时，不再是18学时。实际上还是 18 学时4，公需课只有一个课程广东十四五经济社会发展战略与战略重点5，课程有九章30个视频，每一个视频">
-  您的浏览器不支持 audio 元素。
-</audio>
 <span id="translate" style="border: 0px;cursor: pointer;float: right;color: #7d8c8e;font-size: 12px;margin-top: -5px;"></span>
-
-    <script>
-        const audioPlayer = document.getElementById('audioPlayer');
-        const audioFiles = [
-            'https://dict.youdao.com/dictvoice?le=zh&audio=旧2020年广东省教师公需课。更新于 20200716 0723想自学的老师，请参考下面信息。请用户凭身份证和密码，登录广东省教师继续教育管理信息系统 httpjspxgdedugovcnjspx 公需课学习栏目开展公需课学习，广东省教育综合服务平台粤教翔云公需课学习入口将关闭。以下信息只能做参考，学习网址请看上面内容。简略版在哪里学习1，学习网址httpglgdedugovcn2，学习平台晚上12点后无法访问，早上630才开始。3，今年公需课是nbsp30学时，不再是18学时。实际上还是 18 学时4，公需课只有一个课程广东十四五经济社会发展战略与战略重点5，课程有九章30个视频，每一个视频','https://dict.youdao.com/dictvoice?le=zh&audio=时长30多或40多分钟还有一个课程作业一，单选题每题5分， 共7题二，是非题每题5分， 共7题三，多选题每题5分， 共6题怎样获得帐号1登录 httpjspxgdedugovcnjspx ，登录账号为身份证号，初始密码为后六位2登录后点击右上角公需课账号查询，在弹出框中查看公需课学习账号密码怎样查学时在完成公需课学习10个工作日后，可以在 nbsp广东省专业技术人员继续教育系统nbsp查询公需课学时。图文版1，4月13日已经开始选课学习。2，学习平台晚上12点后无法访问，早上630才开始。3，在完成公需课学习10个工作日后，可以在 nbsp广东省专业技术人员继续教育系统nbsp查询公需课学时。','https://dict.youdao.com/dictvoice?le=zh&audio=4，今年公需课是nbsp30学时，不再是18学时。实际上还是 18 学时5，学习平台变了，换成广东省教育管理公共平台教育云平台1学习网址httpglgdedugovcn2用帐号与初始密码进入后，第一需要修改初始密码，第二绑定个人邮箱重要，作为忘记密码取回密码的重要途径。3小技巧绑定手机号后，可以用手机号作帐号登录，不用记原来帐号。4设置好后就可以点击广东省教师公需课学习平台应用，进入选课，开始学习。6，新平台，需要新帐号与密码，帐号怎么获得呢1登录 httpjspxgdedugovcnjspx ，登录账号为身份证号，初始密码为后六位2登录后点击右上角公需课账号查询，在弹出框中查看公需课学习账号','https://dict.youdao.com/dictvoice?le=zh&audio=密码。7，公需课只有一个课程广东十四五经济社会发展战略与战略重点8，课程有九章30个视频，每一个视频时长30多或40多分钟不等还有一个课程作业一，单选题每题5分，nbsp共7题二，是非题每题5分，nbsp共7题三，多选题每题5分，nbsp共6题',        ];
-        let currentTrack = 0;
-
-        // 点击播放按钮时开始播放
-        function playAudio() {
-            if (currentTrack < audioFiles.length) {
-                audioPlayer.src = audioFiles[currentTrack];
-                audioPlayer.play();
-            } else {
-                audioPlayer.pause();
-            }
-        }
-
-        // 绑定播放按钮的点击事件
-        audioPlayer.addEventListener('click', playAudio);
-
-        // 监听播放结束事件
-        audioPlayer.addEventListener('ended', () => {
-            currentTrack++;
-            if (currentTrack < audioFiles.length) {
-                playAudio(); // 自动播放下一首
-            }
-        });
-    </script>
 
 <style type="text/css">
 	span#translate select {
@@ -696,11 +664,7 @@ document.body.addEventListener('input', POWERMODE);
 <center>
 <a href="/assets3/file/2020/04/b_201628_362154671.png" data-fancybox="gallery" data-caption=""><img src="/assets3/file/2020/04/b_201628_362154671.png" style="max-width:100%;"></a>
 </center></div>
-<div class="readall_box">
-          <div class="read_more_mask"></div>
-          <a class="read_more_btn" target="_self">阅读全文 <i class="fa fa-angle-down" aria-hidden="true" style="font-size: 18px; color: #ca0c16;vertical-align:middle;"></i></a>
-      </div>
-<p class="time clb">生活随笔 2020-04-17 11:59:16 通过 网页 <i class="iconfont icon-view"></i> 浏览(4254) <span> <a href="javascript:printme()" target="_self" style="color: #999;"><i class="fa fa-print"></i> 打印</a></span></p>
+<p class="time clb">生活随笔 2020-04-17 11:59:16 通过 网页 <i class="iconfont icon-view"></i> 浏览(4403) <span> <a href="javascript:printme()" target="_self" style="color: #999;"><i class="fa fa-print"></i> 打印</a></span></p>
 <p class="navPost">  
 	<a href="JavaScript:history.back();">返回</a>&nbsp; <a href="JavaScript:DotRoll('#formpl')">我要评论</a></p></div></div>  
 <!-- 上一篇 下一篇开始 -->

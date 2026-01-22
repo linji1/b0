@@ -61,7 +61,6 @@
 <script type="text/javascript" language="javascript" src="/assets/js/jquery.min.js"></script>
 <link rel="stylesheet" href="/assets/qblog/fontawesome.min.css">
 <link rel="icon" href="/favicon.ico" type="image/x-icon">
-<script src="/assets/js/readmore.js" type="text/javascript"></script>
 <!-- fancyBox 5 -->
 <link rel="stylesheet" href="/assets/js/fancybox/fancybox.min.css" media="all" onload="this.media='all'" />
 <script src="/assets/js/fancybox/fancybox.umd.min.js"></script>
@@ -585,38 +584,7 @@ document.body.addEventListener('input', POWERMODE);
   <div class="breadcrumb" style="margin-top: -5px;"><svg xmlns="http://www.w3.org/2000/svg" width="16px" height="16px" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-home" style="width: 10px;   width: 14px;height: 14px;vertical-align: -2px;
 "><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path><polyline points="9 22 9 12 15 12 15 22"></polyline></svg><a href="/" style="padding-left: 5px;color: #7d8c8e;">首页</a>
 <span>/</span><a href="/b0/list-0.html" style="color: #7d8c8e;">生活随笔</a><span>/</span>正文</div>
-<audio id="audioPlayer" controls preload style="max-width: 50%;opacity: .4;float: right;height: 24px;margin-top: -6px;" title="收听本文" src="https://dict.youdao.com/dictvoice?le=zh&audio=。通知各小学在人事档案管理审核工作中，我镇小学2016年已评，聘职称教师的档案中全部缺失教师职称制度改革人员过渡登记表。根据人社局，教育局的要求，必须及时补办职称过渡登记表，现要求如下1，填写广东省深化中小学教师职称制度改革人员过渡登记表按2016年当时的实际情况填写。教师可自己查看微信上面的雷州市杨家镇小学教师职称制度改革过渡人员一览表参考用中的信息，并依照微信上面的范例和本人以前填写的表格信息，认真，细致地填写，打印或复印的表格要整洁清楚，模糊且有黑线黑边的表格不收，填写时字迹要清楚，不能涂改。2，特别强调1过渡登记表可以录入打印，也可以手抄写，但个人核对意见栏的签名要手笔签名，不能打印姓">
-  您的浏览器不支持 audio 元素。
-</audio>
 <span id="translate" style="border: 0px;cursor: pointer;float: right;color: #7d8c8e;font-size: 12px;margin-top: -5px;"></span>
-
-    <script>
-        const audioPlayer = document.getElementById('audioPlayer');
-        const audioFiles = [
-            'https://dict.youdao.com/dictvoice?le=zh&audio=。通知各小学在人事档案管理审核工作中，我镇小学2016年已评，聘职称教师的档案中全部缺失教师职称制度改革人员过渡登记表。根据人社局，教育局的要求，必须及时补办职称过渡登记表，现要求如下1，填写广东省深化中小学教师职称制度改革人员过渡登记表按2016年当时的实际情况填写。教师可自己查看微信上面的雷州市杨家镇小学教师职称制度改革过渡人员一览表参考用中的信息，并依照微信上面的范例和本人以前填写的表格信息，认真，细致地填写，打印或复印的表格要整洁清楚，模糊且有黑线黑边的表格不收，填写时字迹要清楚，不能涂改。2，特别强调1过渡登记表可以录入打印，也可以手抄写，但个人核对意见栏的签名要手笔签名，不能打印姓','https://dict.youdao.com/dictvoice?le=zh&audio=名2出生年月填写格式YYYYMMDD3过渡前专业技术职务资格名称栏按职称聘书的原本资格名称填写4过渡后专业技术职务资格名称栏正确填写格式为学段科目等级正确填写格式为小学语文一级教师填写为语文小学一级教师则是错误的5表中时间年月日暂不填，留空6学校单位意见栏，各学校校长或教导主任帮忙填写同意过渡四个字，同意过渡四个字下面由中心小学蔡校长签名，面上小学校长不要签名，该栏时间也暂不填，盖章处留待中心小学盖章，不得盖下面学校公章。7填好后一定要在表格右上角用铅笔写上编号各人的编号详见广东省深化中小学教师职称制度改革过渡人员一览表第一列。3，每个人按过渡登记表，职称评证书原件，职称聘证书原件，教师资格证','https://dict.youdao.com/dictvoice?le=zh&audio=原件的顺序整齐叠放表格和证书，用夹子夹好，一个人一份。4，一览表后面黄色姓名中，除了退休和病故的，调出杨家镇外的教师如果愿意补办，也可以交来资料补办。5，学校收齐教师的表格，证书后，首先认真审核证书和表格填写无误后，再按过渡人员一览表的姓名顺序整理好于2022年6月29日前交到管理组，以便送教育局，人社局审核。6，这两天可以派人到管理组取回教师原来缴交的广东省深化中小学教师职称制度改革人员过渡登记表和你校的一览表参考填写。杨家镇中心小学管理组2022年6月21日上午发送 下载文件 广东省深化中小学教师职称制度改革人员过渡登记表doc',        ];
-        let currentTrack = 0;
-
-        // 点击播放按钮时开始播放
-        function playAudio() {
-            if (currentTrack < audioFiles.length) {
-                audioPlayer.src = audioFiles[currentTrack];
-                audioPlayer.play();
-            } else {
-                audioPlayer.pause();
-            }
-        }
-
-        // 绑定播放按钮的点击事件
-        audioPlayer.addEventListener('click', playAudio);
-
-        // 监听播放结束事件
-        audioPlayer.addEventListener('ended', () => {
-            currentTrack++;
-            if (currentTrack < audioFiles.length) {
-                playAudio(); // 自动播放下一首
-            }
-        });
-    </script>
 
 <style type="text/css">
 	span#translate select {
@@ -661,11 +629,7 @@ document.body.addEventListener('input', POWERMODE);
 <a target="_blank" href="https://view.officeapps.live.com/op/embed.aspx?src=//linji.cn/assets/file/2022/06/广东省深化中小学教师职称制度改革人员过渡登记表.doc&wdAccPdf=1" style="">广东省深化中小学教师职称制度改革人员过渡登记表.doc</a><br>
 
 </div></div></div>
-<div class="readall_box">
-          <div class="read_more_mask"></div>
-          <a class="read_more_btn" target="_self">阅读全文 <i class="fa fa-angle-down" aria-hidden="true" style="font-size: 18px; color: #ca0c16;vertical-align:middle;"></i></a>
-      </div>
-<p class="time clb">生活随笔 2022-06-21 12:12:09 通过 网页 <i class="iconfont icon-view"></i> 浏览(2316) <span> <a href="javascript:printme()" target="_self" style="color: #999;"><i class="fa fa-print"></i> 打印</a></span></p>
+<p class="time clb">生活随笔 2022-06-21 12:12:09 通过 网页 <i class="iconfont icon-view"></i> 浏览(2444) <span> <a href="javascript:printme()" target="_self" style="color: #999;"><i class="fa fa-print"></i> 打印</a></span></p>
 <p class="navPost">  
 	<a href="JavaScript:history.back();">返回</a>&nbsp; <a href="JavaScript:DotRoll('#formpl')">我要评论</a></p></div></div>  
 <!-- 上一篇 下一篇开始 -->

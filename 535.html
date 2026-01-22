@@ -61,7 +61,6 @@
 <script type="text/javascript" language="javascript" src="/assets/js/jquery.min.js"></script>
 <link rel="stylesheet" href="/assets/qblog/fontawesome.min.css">
 <link rel="icon" href="/favicon.ico" type="image/x-icon">
-<script src="/assets/js/readmore.js" type="text/javascript"></script>
 <!-- fancyBox 5 -->
 <link rel="stylesheet" href="/assets/js/fancybox/fancybox.min.css" media="all" onload="this.media='all'" />
 <script src="/assets/js/fancybox/fancybox.umd.min.js"></script>
@@ -585,38 +584,7 @@ document.body.addEventListener('input', POWERMODE);
   <div class="breadcrumb" style="margin-top: -5px;"><svg xmlns="http://www.w3.org/2000/svg" width="16px" height="16px" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-home" style="width: 10px;   width: 14px;height: 14px;vertical-align: -2px;
 "><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path><polyline points="9 22 9 12 15 12 15 22"></polyline></svg><a href="/" style="padding-left: 5px;color: #7d8c8e;">首页</a>
 <span>/</span><a href="/b0/list-0.html" style="color: #7d8c8e;">生活随笔</a><span>/</span>正文</div>
-<audio id="audioPlayer" controls preload style="max-width: 50%;opacity: .4;float: right;height: 24px;margin-top: -6px;" title="收听本文" src="https://dict.youdao.com/dictvoice?le=zh&audio=。本式往来港澳通行证将于2019年9月13日全部失效国家移民管理局5日发布提示，现用的本式往来港澳通行证将于2019年9月13日全部失效。按照往来港澳签注最短有效期3个月计算，近期持用本式往来港澳通行证将不便于申请新的签注。国家移民管理局提示，有出行需求的持证人提前申请卡式电子往来港澳通行证，已办妥签注的本式往来港澳通行证在有效期内仍可继续使用。据介绍，卡式电子往来港澳通行证于2014年9月启用。今年4月1日起，国家移民管理局推出全国通办政策后，内地居民申请卡式电子往来港澳通行证及团队旅游签注更加便捷。内地居民可以在全国任一出入境管理窗口申请办理，也可以通过移民局官方App，服务网站在线申请。">
-  您的浏览器不支持 audio 元素。
-</audio>
 <span id="translate" style="border: 0px;cursor: pointer;float: right;color: #7d8c8e;font-size: 12px;margin-top: -5px;"></span>
-
-    <script>
-        const audioPlayer = document.getElementById('audioPlayer');
-        const audioFiles = [
-            'https://dict.youdao.com/dictvoice?le=zh&audio=。本式往来港澳通行证将于2019年9月13日全部失效国家移民管理局5日发布提示，现用的本式往来港澳通行证将于2019年9月13日全部失效。按照往来港澳签注最短有效期3个月计算，近期持用本式往来港澳通行证将不便于申请新的签注。国家移民管理局提示，有出行需求的持证人提前申请卡式电子往来港澳通行证，已办妥签注的本式往来港澳通行证在有效期内仍可继续使用。据介绍，卡式电子往来港澳通行证于2014年9月启用。今年4月1日起，国家移民管理局推出全国通办政策后，内地居民申请卡式电子往来港澳通行证及团队旅游签注更加便捷。内地居民可以在全国任一出入境管理窗口申请办理，也可以通过移民局官方App，服务网站在线申请。','https://dict.youdao.com/dictvoice?le=zh&audio=持卡式证件在自助签注机办理赴港澳团队旅游签注可实现立等可取。',        ];
-        let currentTrack = 0;
-
-        // 点击播放按钮时开始播放
-        function playAudio() {
-            if (currentTrack < audioFiles.length) {
-                audioPlayer.src = audioFiles[currentTrack];
-                audioPlayer.play();
-            } else {
-                audioPlayer.pause();
-            }
-        }
-
-        // 绑定播放按钮的点击事件
-        audioPlayer.addEventListener('click', playAudio);
-
-        // 监听播放结束事件
-        audioPlayer.addEventListener('ended', () => {
-            currentTrack++;
-            if (currentTrack < audioFiles.length) {
-                playAudio(); // 自动播放下一首
-            }
-        });
-    </script>
 
 <style type="text/css">
 	span#translate select {
@@ -638,11 +606,7 @@ document.body.addEventListener('input', POWERMODE);
 国家移民管理局5日发布提示，现用的本式往来港澳通行证将于2019年9月13日全部失效。按照往来港澳签注最短有效期3个月计算，近期持用本式往来港澳通行证将不便于申请新的签注。国家移民管理局提示，有出行需求的持证人提前申请卡式电子往来港澳通行证，已办妥签注的本式往来港澳通行证在有效期内仍可继续使用。<br><br>
 
 据介绍，卡式电子往来港澳通行证于2014年9月启用。今年4月1日起，国家移民管理局推出“全国通办”政策后，内地居民申请卡式电子往来港澳通行证及团队旅游签注更加便捷。内地居民可以在全国任一出入境管理窗口申请办理，也可以通过移民局官方App、服务网站在线申请。持卡式证件在自助签注机办理赴港澳团队旅游签注可实现立等可取。</div>
-<div class="readall_box">
-          <div class="read_more_mask"></div>
-          <a class="read_more_btn" target="_self">阅读全文 <i class="fa fa-angle-down" aria-hidden="true" style="font-size: 18px; color: #ca0c16;vertical-align:middle;"></i></a>
-      </div>
-<p class="time clb">生活随笔 2019-05-05 21:32:50 通过 网页 <i class="iconfont icon-view"></i> 浏览(3634) <span> <a href="javascript:printme()" target="_self" style="color: #999;"><i class="fa fa-print"></i> 打印</a></span></p>
+<p class="time clb">生活随笔 2019-05-05 21:32:50 通过 网页 <i class="iconfont icon-view"></i> 浏览(3746) <span> <a href="javascript:printme()" target="_self" style="color: #999;"><i class="fa fa-print"></i> 打印</a></span></p>
 <p class="navPost">  
 	<a href="JavaScript:history.back();">返回</a></p></div></div>  
 <!-- 上一篇 下一篇开始 -->

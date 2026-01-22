@@ -61,7 +61,6 @@
 <script type="text/javascript" language="javascript" src="/assets/js/jquery.min.js"></script>
 <link rel="stylesheet" href="/assets/qblog/fontawesome.min.css">
 <link rel="icon" href="/favicon.ico" type="image/x-icon">
-<script src="/assets/js/readmore.js" type="text/javascript"></script>
 <!-- fancyBox 5 -->
 <link rel="stylesheet" href="/assets/js/fancybox/fancybox.min.css" media="all" onload="this.media='all'" />
 <script src="/assets/js/fancybox/fancybox.umd.min.js"></script>
@@ -585,38 +584,7 @@ document.body.addEventListener('input', POWERMODE);
   <div class="breadcrumb" style="margin-top: -5px;"><svg xmlns="http://www.w3.org/2000/svg" width="16px" height="16px" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-home" style="width: 10px;   width: 14px;height: 14px;vertical-align: -2px;
 "><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path><polyline points="9 22 9 12 15 12 15 22"></polyline></svg><a href="/" style="padding-left: 5px;color: #7d8c8e;">首页</a>
 <span>/</span><a href="/b0/list-0.html" style="color: #7d8c8e;">生活随笔</a><span>/</span>正文</div>
-<audio id="audioPlayer" controls preload style="max-width: 50%;opacity: .4;float: right;height: 24px;margin-top: -6px;" title="收听本文" src="https://dict.youdao.com/dictvoice?le=zh&audio=湛江六进课堂助推素质教育。nbspnbspnbspnbsp当一个演小老鼠的学生看到黑板上的菜谱写着小猫5元时立刻反应哇今天有小猫吃从来都是小猫吃我们老鼠的，老鼠吃不了小猫，不知小猫是什么滋味，今天可要尝尝了。这可不是表演节目，是广东湛江第二十五小学二年级一个班在上语文课。如此引导后，学生们很快就理解了惊讶一词的含义和用法。一项旨在改善课堂活动中的师生关系，推进课堂素质教育的改革六进课堂使湛江市众多中小学的课堂面貌焕然一新，过去沉闷的课堂变成了师生开心的乐园。 nbspnbspnbspnbsp课堂是素质教育的主阵地，要收到良好的素质教育效果，文章还得在课堂上做。但怎样的课堂才能符合素质教育的要求">
-  您的浏览器不支持 audio 元素。
-</audio>
 <span id="translate" style="border: 0px;cursor: pointer;float: right;color: #7d8c8e;font-size: 12px;margin-top: -5px;"></span>
-
-    <script>
-        const audioPlayer = document.getElementById('audioPlayer');
-        const audioFiles = [
-            'https://dict.youdao.com/dictvoice?le=zh&audio=湛江六进课堂助推素质教育。nbspnbspnbspnbsp当一个演小老鼠的学生看到黑板上的菜谱写着小猫5元时立刻反应哇今天有小猫吃从来都是小猫吃我们老鼠的，老鼠吃不了小猫，不知小猫是什么滋味，今天可要尝尝了。这可不是表演节目，是广东湛江第二十五小学二年级一个班在上语文课。如此引导后，学生们很快就理解了惊讶一词的含义和用法。一项旨在改善课堂活动中的师生关系，推进课堂素质教育的改革六进课堂使湛江市众多中小学的课堂面貌焕然一新，过去沉闷的课堂变成了师生开心的乐园。 nbspnbspnbspnbsp课堂是素质教育的主阵地，要收到良好的素质教育效果，文章还得在课堂上做。但怎样的课堂才能符合素质教育的要求','https://dict.youdao.com/dictvoice?le=zh&audio=广东湛江市教育部门在长期摸索实践中发现，课堂上传统的以教师施教为主的满堂灌教学模式，已成为课堂上实施素质教育的最大障碍。今年2月，该市教育部门对所有中小学的教师提出了一项强制性要求教师在进行课堂教学时，必须把微笑，尊重，宽容，民主，探究，合作带进课堂。 nbspnbspnbspnbsp在前面提到的那堂课上，老师名曰讲授新课食堂供应小猫，但他除了给一些生字注上拼音外，没有对任何一个字词作过定义，而是采用互动式的朗诵和表演来演绎课文所表达的童话故事，老师与学生之间，学生与学生之间不断地互换着小老鼠，老鼠爸爸，老鼠妈妈，小猫和猪老板等不同角色，通过模仿角色说话时的动作和表情，或想象角色在故事中的心理','https://dict.youdao.com/dictvoice?le=zh&audio=活动等来启发学生理解生字，生词。课堂气氛十分活跃，热烈。 nbspnbspnbspnbsp据介绍，为了保证教师在任何状态下都能自然地微笑着尊重和善待每一位学生，该市还组织有关专家对全市的中小学教师进行了一次心理健康辅导训练，以增强教师自身的心理调节能力。 nbspnbspnbspnbsp市教育局局长郑福明对笔者说六进课堂是湛江市多年来实施素质教育实践的结果。他认为，六进课堂浓缩体现了国家推进素质教育的要求。 ',        ];
-        let currentTrack = 0;
-
-        // 点击播放按钮时开始播放
-        function playAudio() {
-            if (currentTrack < audioFiles.length) {
-                audioPlayer.src = audioFiles[currentTrack];
-                audioPlayer.play();
-            } else {
-                audioPlayer.pause();
-            }
-        }
-
-        // 绑定播放按钮的点击事件
-        audioPlayer.addEventListener('click', playAudio);
-
-        // 监听播放结束事件
-        audioPlayer.addEventListener('ended', () => {
-            currentTrack++;
-            if (currentTrack < audioFiles.length) {
-                playAudio(); // 自动播放下一首
-            }
-        });
-    </script>
 
 <style type="text/css">
 	span#translate select {
@@ -634,11 +602,7 @@ document.body.addEventListener('input', POWERMODE);
 <div  id="printview">
 <h1>湛江“六进课堂”助推素质教育</h1><div class="text">
 &nbsp;&nbsp;&nbsp;&nbsp;当一个演“小老鼠”的学生看到黑板上的菜谱写着“小猫5元”时立刻反应：“哇！今天有小猫吃！从来都是小猫吃我们老鼠的，老鼠吃不了小猫，不知小猫是什么滋味，今天可要尝尝了。”这可不是表演节目，是广东湛江第二十五小学二年级一个班在上语文课。如此引导后，学生们很快就理解了“惊讶”一词的含义和用法。一项旨在改善课堂活动中的师生关系、推进课堂素质教育的改革———“六进课堂”使湛江市众多中小学的课堂面貌焕然一新，过去沉闷的课堂变成了师生开心的乐园。 <br>&nbsp;&nbsp;&nbsp;&nbsp;课堂是素质教育的主阵地，要收到良好的素质教育效果，文章还得在课堂上做。但怎样的课堂才能符合素质教育的要求？广东湛江市教育部门在长期摸索实践中发现，课堂上传统的以教师“施教”为主的“满堂灌”教学模式，已成为课堂上实施素质教育的最大障碍。今年2月，该市教育部门对所有中小学的教师提出了一项“强制”性要求：教师在进行课堂教学时，必须把“微笑、尊重、宽容、民主、探究、合作”带进课堂。 <br><br>&nbsp;&nbsp;&nbsp;&nbsp;在前面提到的那堂课上，老师名曰“讲授”新课《食堂供应小猫》，但他除了给一些生字注上拼音外，没有对任何一个字词作过“定义”，而是采用互动式的朗诵和表演来演绎课文所表达的童话故事，老师与学生之间、学生与学生之间不断地互换着“小老鼠”、“老鼠爸爸”、“老鼠妈妈”、“小猫”和“猪老板”等不同角色，通过模仿角色说话时的动作和表情，或想象角色在故事中的心理活动等来启发学生理解生字、生词。课堂气氛十分活跃、热烈。 <br><br>&nbsp;&nbsp;&nbsp;&nbsp;据介绍，为了保证教师在任何状态下都能自然地微笑着尊重和善待每一位学生，该市还组织有关专家对全市的中小学教师进行了一次心理健康辅导训练，以增强教师自身的心理调节能力。 <br><br>&nbsp;&nbsp;&nbsp;&nbsp;市教育局局长郑福明对笔者说：“六进课堂”是湛江市多年来实施素质教育实践的结果。他认为，“六进课堂”浓缩体现了国家推进素质教育的要求。 <br></div>
-<div class="readall_box">
-          <div class="read_more_mask"></div>
-          <a class="read_more_btn" target="_self">阅读全文 <i class="fa fa-angle-down" aria-hidden="true" style="font-size: 18px; color: #ca0c16;vertical-align:middle;"></i></a>
-      </div>
-<p class="time clb">生活随笔 2008-07-12 00:29:04 通过 网页 <i class="iconfont icon-view"></i> 浏览(4658) <span> <a href="javascript:printme()" target="_self" style="color: #999;"><i class="fa fa-print"></i> 打印</a></span></p>
+<p class="time clb">生活随笔 2008-07-12 00:29:04 通过 网页 <i class="iconfont icon-view"></i> 浏览(4767) <span> <a href="javascript:printme()" target="_self" style="color: #999;"><i class="fa fa-print"></i> 打印</a></span></p>
 <p class="navPost">  
 	<a href="JavaScript:history.back();">返回</a>&nbsp; <a href="JavaScript:DotRoll('#formpl')">我要评论</a></p></div></div>  
 <!-- 上一篇 下一篇开始 -->
