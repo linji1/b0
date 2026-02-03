@@ -583,13 +583,16 @@ document.body.addEventListener('input', POWERMODE);
   <div id="content" style="position: relative;">
     <!-- <head>中添加听读功能样式 -->
 <style>
-  /* 句子高亮样式 */
-.sentence.current {
-  background-color: #fffacd; /* 淡黄色高亮 */
-  border-radius: 3px;
-}
 .sentence {
   cursor: pointer;
+  /* 默认 inline，不破坏排版 */
+}
+.sentence:hover {
+  background-color: #f0f0f0;
+}
+.sentence.current {
+  background-color: #ffeb3b; /* 黄色高亮 */
+  border-radius: 2px;
 }
 </style>
 <!-- 听读控制面板（插入到printview容器前） -->
@@ -668,7 +671,7 @@ document.body.addEventListener('input', POWERMODE);
 <p>至此，您的整个申报流程就顺利完成了!您可随时通过手机 APP 查看退税进度(路径：首页【我要查询】—【申报查询】—【已完成】)。</p>
 
 <p>⚠️注意：“全年一次性奖金”低于12w 选择：全部并入综合所得计税，高于12w选择：单独计税 </p></div>
-</div><p class="time clb">生活随笔 2024-04-09 16:51:48 通过 网页 <i class="iconfont icon-view"></i> 浏览(2287) <span> <a href="javascript:printme()" target="_self" style="color: #999;"><i class="fa fa-print"></i> 打印</a></span></p>
+</div><p class="time clb">生活随笔 2024-04-09 16:51:48 通过 网页 <i class="iconfont icon-view"></i> 浏览(2288) <span> <a href="javascript:printme()" target="_self" style="color: #999;"><i class="fa fa-print"></i> 打印</a></span></p>
 <p class="navPost">  
 	<a href="JavaScript:history.back();">返回</a>&nbsp; <a href="JavaScript:DotRoll('#formpl')">我要评论</a></p></div>  
 <!-- 上一篇 下一篇开始 -->

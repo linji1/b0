@@ -583,13 +583,16 @@ document.body.addEventListener('input', POWERMODE);
   <div id="content" style="position: relative;">
     <!-- <head>中添加听读功能样式 -->
 <style>
-  /* 句子高亮样式 */
-.sentence.current {
-  background-color: #fffacd; /* 淡黄色高亮 */
-  border-radius: 3px;
-}
 .sentence {
   cursor: pointer;
+  /* 默认 inline，不破坏排版 */
+}
+.sentence:hover {
+  background-color: #f0f0f0;
+}
+.sentence.current {
+  background-color: #ffeb3b; /* 黄色高亮 */
+  border-radius: 2px;
 }
 </style>
 <!-- 听读控制面板（插入到printview容器前） -->
@@ -668,7 +671,7 @@ document.body.addEventListener('input', POWERMODE);
 
 
 <strong>四、以有力措施坚决查处师德违规行为。</strong>各地各校要按照准则及相应的处理指导意见、处理办法要求，严格举报受理和违规查处。对于发生准则中禁止行为的，要态度坚决，一查到底，依法依规严肃惩处，绝不姑息。</div>
-</div><p class="time clb">生活随笔 2021-07-14 10:25:28 通过 网页 <i class="iconfont icon-view"></i> 浏览(4220) <span> <a href="javascript:printme()" target="_self" style="color: #999;"><i class="fa fa-print"></i> 打印</a></span></p>
+</div><p class="time clb">生活随笔 2021-07-14 10:25:28 通过 网页 <i class="iconfont icon-view"></i> 浏览(4223) <span> <a href="javascript:printme()" target="_self" style="color: #999;"><i class="fa fa-print"></i> 打印</a></span></p>
 <p class="navPost">  
 	<a href="JavaScript:history.back();">返回</a>&nbsp; <a href="JavaScript:DotRoll('#formpl')">我要评论</a></p></div>  
 <!-- 上一篇 下一篇开始 -->

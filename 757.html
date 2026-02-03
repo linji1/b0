@@ -583,13 +583,16 @@ document.body.addEventListener('input', POWERMODE);
   <div id="content" style="position: relative;">
     <!-- <head>中添加听读功能样式 -->
 <style>
-  /* 句子高亮样式 */
-.sentence.current {
-  background-color: #fffacd; /* 淡黄色高亮 */
-  border-radius: 3px;
-}
 .sentence {
   cursor: pointer;
+  /* 默认 inline，不破坏排版 */
+}
+.sentence:hover {
+  background-color: #f0f0f0;
+}
+.sentence.current {
+  background-color: #ffeb3b; /* 黄色高亮 */
+  border-radius: 2px;
 }
 </style>
 <!-- 听读控制面板（插入到printview容器前） -->
@@ -656,7 +659,7 @@ document.body.addEventListener('input', POWERMODE);
 <a href="/assets2/file/2022/08/202208144.webp" data-fancybox="gallery" style=""><img src="/assets2/file/2022/08/202208144.webp"></a><br><br>
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;在这场没有硝烟的战斗中，雷州市教育系统坚决扛起疫情防控政治责任，始终保持“疫”无反顾、英勇奋战的姿态，以高度的责任感和使命感投入到疫情防控大仗硬仗中来，在大战大考中凝聚雷州教育力量、彰显雷州教育担当。</div>
-</div><p class="time clb">生活随笔 2022-08-15 12:45:01 通过 网页 <i class="iconfont icon-view"></i> 浏览(2558) <span> <a href="javascript:printme()" target="_self" style="color: #999;"><i class="fa fa-print"></i> 打印</a></span></p>
+</div><p class="time clb">生活随笔 2022-08-15 12:45:01 通过 网页 <i class="iconfont icon-view"></i> 浏览(2559) <span> <a href="javascript:printme()" target="_self" style="color: #999;"><i class="fa fa-print"></i> 打印</a></span></p>
 <p class="navPost">  
 	<a href="JavaScript:history.back();">返回</a>&nbsp; <a href="JavaScript:DotRoll('#formpl')">我要评论</a></p></div>  
 <!-- 上一篇 下一篇开始 -->

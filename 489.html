@@ -583,13 +583,16 @@ document.body.addEventListener('input', POWERMODE);
   <div id="content" style="position: relative;">
     <!-- <head>中添加听读功能样式 -->
 <style>
-  /* 句子高亮样式 */
-.sentence.current {
-  background-color: #fffacd; /* 淡黄色高亮 */
-  border-radius: 3px;
-}
 .sentence {
   cursor: pointer;
+  /* 默认 inline，不破坏排版 */
+}
+.sentence:hover {
+  background-color: #f0f0f0;
+}
+.sentence.current {
+  background-color: #ffeb3b; /* 黄色高亮 */
+  border-radius: 2px;
 }
 </style>
 <!-- 听读控制面板（插入到printview容器前） -->
@@ -636,7 +639,7 @@ document.body.addEventListener('input', POWERMODE);
 放假五天：农忙假、清明节<br>
 农忙假、清明节一共放假五天，2019年4月3日 ~ 2019年4月7日，下星期一正常上课。
 <center><a href="/assets3/file/2020/02/b_024048_1493792743.webp" data-fancybox="gallery" data-caption="" style=""><img src="/assets3/file/2020/02/b_024048_1493792743.webp" style="max-width:100%;"></a></center></div>
-</div><p class="time clb">生活随笔 2019-04-03 11:23:48 通过 网页 <i class="iconfont icon-view"></i> 浏览(4046) <span> <a href="javascript:printme()" target="_self" style="color: #999;"><i class="fa fa-print"></i> 打印</a></span></p>
+</div><p class="time clb">生活随笔 2019-04-03 11:23:48 通过 网页 <i class="iconfont icon-view"></i> 浏览(4047) <span> <a href="javascript:printme()" target="_self" style="color: #999;"><i class="fa fa-print"></i> 打印</a></span></p>
 <p class="navPost">  
 	<a href="JavaScript:history.back();">返回</a></p></div>  
 <!-- 上一篇 下一篇开始 -->

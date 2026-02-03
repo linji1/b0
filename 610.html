@@ -583,13 +583,16 @@ document.body.addEventListener('input', POWERMODE);
   <div id="content" style="position: relative;">
     <!-- <head>中添加听读功能样式 -->
 <style>
-  /* 句子高亮样式 */
-.sentence.current {
-  background-color: #fffacd; /* 淡黄色高亮 */
-  border-radius: 3px;
-}
 .sentence {
   cursor: pointer;
+  /* 默认 inline，不破坏排版 */
+}
+.sentence:hover {
+  background-color: #f0f0f0;
+}
+.sentence.current {
+  background-color: #ffeb3b; /* 黄色高亮 */
+  border-radius: 2px;
 }
 </style>
 <!-- 听读控制面板（插入到printview容器前） -->
@@ -660,7 +663,7 @@ document.body.addEventListener('input', POWERMODE);
 各学校须于8月5日14:30前将考生填写的《初中毕业生学业考试成绩复查申请表》按考生准考证号顺序汇总后送县（市、区）招考办。<br><br>
 
 各县（市、区）招考办集中录入考生的申请复查成绩数据，于8月5日17：00前用电子邮件发送到市招生考试委员会办公室（邮箱52342290@qq.com)。市招生考试委员会办公室将于8月5一7日组织复查，于7日下午公布复查结果。</div>
-</div><p class="time clb">生活随笔 2020-08-04 15:14:53 通过 网页 <i class="iconfont icon-view"></i> 浏览(4019) <span> <a href="javascript:printme()" target="_self" style="color: #999;"><i class="fa fa-print"></i> 打印</a></span></p>
+</div><p class="time clb">生活随笔 2020-08-04 15:14:53 通过 网页 <i class="iconfont icon-view"></i> 浏览(4021) <span> <a href="javascript:printme()" target="_self" style="color: #999;"><i class="fa fa-print"></i> 打印</a></span></p>
 <p class="navPost">  
 	<a href="JavaScript:history.back();">返回</a>&nbsp; <a href="JavaScript:DotRoll('#formpl')">我要评论</a></p></div>  
 <!-- 上一篇 下一篇开始 -->

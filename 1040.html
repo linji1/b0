@@ -583,13 +583,16 @@ document.body.addEventListener('input', POWERMODE);
   <div id="content" style="position: relative;">
     <!-- <head>中添加听读功能样式 -->
 <style>
-  /* 句子高亮样式 */
-.sentence.current {
-  background-color: #fffacd; /* 淡黄色高亮 */
-  border-radius: 3px;
-}
 .sentence {
   cursor: pointer;
+  /* 默认 inline，不破坏排版 */
+}
+.sentence:hover {
+  background-color: #f0f0f0;
+}
+.sentence.current {
+  background-color: #ffeb3b; /* 黄色高亮 */
+  border-radius: 2px;
 }
 </style>
 <!-- 听读控制面板（插入到printview容器前） -->
@@ -907,7 +910,7 @@ document.body.addEventListener('input', POWERMODE);
 </p><p>大看村，始建于明朝嘉靖三十八年（1559年），建村始祖周五从周家村迁来。初期名多廉村，因村风淳朴受邻村赞赏，后名大看村。
 </p><p>草律村，始祖胡志泰于清朝嘉庆年间从官长村迁来定居，初名双材村，后改草律村。
 </p><p>参考资料：《湛江村庄简史·雷州市卷》</p></div>
-</div><p class="time clb">生活随笔 2025-01-06 12:32:28 通过 手机 <i class="iconfont icon-view"></i> 浏览(6189) <span> <a href="javascript:printme()" target="_self" style="color: #999;"><i class="fa fa-print"></i> 打印</a></span></p>
+</div><p class="time clb">生活随笔 2025-01-06 12:32:28 通过 手机 <i class="iconfont icon-view"></i> 浏览(6191) <span> <a href="javascript:printme()" target="_self" style="color: #999;"><i class="fa fa-print"></i> 打印</a></span></p>
 <p class="navPost">  
 	<a href="JavaScript:history.back();">返回</a>&nbsp; <a href="JavaScript:DotRoll('#formpl')">我要评论</a></p></div>  
 <!-- 上一篇 下一篇开始 -->

@@ -583,13 +583,16 @@ document.body.addEventListener('input', POWERMODE);
   <div id="content" style="position: relative;">
     <!-- <head>中添加听读功能样式 -->
 <style>
-  /* 句子高亮样式 */
-.sentence.current {
-  background-color: #fffacd; /* 淡黄色高亮 */
-  border-radius: 3px;
-}
 .sentence {
   cursor: pointer;
+  /* 默认 inline，不破坏排版 */
+}
+.sentence:hover {
+  background-color: #f0f0f0;
+}
+.sentence.current {
+  background-color: #ffeb3b; /* 黄色高亮 */
+  border-radius: 2px;
 }
 </style>
 <!-- 听读控制面板（插入到printview容器前） -->
@@ -718,7 +721,7 @@ document.body.addEventListener('input', POWERMODE);
 </p><p>帮助孩子制定计划，提出新的目标，让孩子经常体验到成功的喜悦。
 </p><p>一二年级是整个小学阶段的奠基时期，也是决定孩子成绩的关键时期。
 </p><p>家长一定要狠抓孩子的生活习惯、写字水平、学习效率、学习习惯、学习态度这五个方面，让孩子一天天形成好习惯，一点点表现得更出色。</p></div>
-</div><p class="time clb">生活随笔 2021-01-07 22:25:46 通过 网页 <i class="iconfont icon-view"></i> 浏览(4156) <span> <a href="javascript:printme()" target="_self" style="color: #999;"><i class="fa fa-print"></i> 打印</a></span></p>
+</div><p class="time clb">生活随笔 2021-01-07 22:25:46 通过 网页 <i class="iconfont icon-view"></i> 浏览(4157) <span> <a href="javascript:printme()" target="_self" style="color: #999;"><i class="fa fa-print"></i> 打印</a></span></p>
 <p class="navPost">  
 	<a href="JavaScript:history.back();">返回</a>&nbsp; <a href="JavaScript:DotRoll('#formpl')">我要评论</a></p></div>  
 <!-- 上一篇 下一篇开始 -->

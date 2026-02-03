@@ -583,13 +583,16 @@ document.body.addEventListener('input', POWERMODE);
   <div id="content" style="position: relative;">
     <!-- <head>中添加听读功能样式 -->
 <style>
-  /* 句子高亮样式 */
-.sentence.current {
-  background-color: #fffacd; /* 淡黄色高亮 */
-  border-radius: 3px;
-}
 .sentence {
   cursor: pointer;
+  /* 默认 inline，不破坏排版 */
+}
+.sentence:hover {
+  background-color: #f0f0f0;
+}
+.sentence.current {
+  background-color: #ffeb3b; /* 黄色高亮 */
+  border-radius: 2px;
 }
 </style>
 <!-- 听读控制面板（插入到printview容器前） -->
@@ -638,7 +641,7 @@ document.body.addEventListener('input', POWERMODE);
 国家移民管理局5日发布提示，现用的本式往来港澳通行证将于2019年9月13日全部失效。按照往来港澳签注最短有效期3个月计算，近期持用本式往来港澳通行证将不便于申请新的签注。国家移民管理局提示，有出行需求的持证人提前申请卡式电子往来港澳通行证，已办妥签注的本式往来港澳通行证在有效期内仍可继续使用。<br><br>
 
 据介绍，卡式电子往来港澳通行证于2014年9月启用。今年4月1日起，国家移民管理局推出“全国通办”政策后，内地居民申请卡式电子往来港澳通行证及团队旅游签注更加便捷。内地居民可以在全国任一出入境管理窗口申请办理，也可以通过移民局官方App、服务网站在线申请。持卡式证件在自助签注机办理赴港澳团队旅游签注可实现立等可取。</div>
-</div><p class="time clb">生活随笔 2019-05-05 21:32:50 通过 网页 <i class="iconfont icon-view"></i> 浏览(3818) <span> <a href="javascript:printme()" target="_self" style="color: #999;"><i class="fa fa-print"></i> 打印</a></span></p>
+</div><p class="time clb">生活随笔 2019-05-05 21:32:50 通过 网页 <i class="iconfont icon-view"></i> 浏览(3819) <span> <a href="javascript:printme()" target="_self" style="color: #999;"><i class="fa fa-print"></i> 打印</a></span></p>
 <p class="navPost">  
 	<a href="JavaScript:history.back();">返回</a></p></div>  
 <!-- 上一篇 下一篇开始 -->

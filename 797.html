@@ -583,13 +583,16 @@ document.body.addEventListener('input', POWERMODE);
   <div id="content" style="position: relative;">
     <!-- <head>中添加听读功能样式 -->
 <style>
-  /* 句子高亮样式 */
-.sentence.current {
-  background-color: #fffacd; /* 淡黄色高亮 */
-  border-radius: 3px;
-}
 .sentence {
   cursor: pointer;
+  /* 默认 inline，不破坏排版 */
+}
+.sentence:hover {
+  background-color: #f0f0f0;
+}
+.sentence.current {
+  background-color: #ffeb3b; /* 黄色高亮 */
+  border-radius: 2px;
 }
 </style>
 <!-- 听读控制面板（插入到printview容器前） -->
@@ -704,7 +707,7 @@ document.body.addEventListener('input', POWERMODE);
 <p>思考之后，记下其得失优劣，写下反思之法，借鉴之道，并和自己的备课思路进行对比分析，大胆地去粗取精，扬长避短，写出符合自己特点的教案，并付诸实施。</p>
 
 <p>正所谓“教无定法，贵在得法”。教师在听其他老师授课时，要特别注意去品悟师生教和学的方法与技巧，品悟教师如何运用并组合教法，特别留心品悟不同学生在课堂上的思维类型、学习心理、学习方法和认知规律。看不同类型的学生在自主学习上，普遍存在哪些优势与问题，为有效指导学生学会学习而积累经验。</p></div>
-</div><p class="time clb">生活随笔 2022-12-08 21:38:59 通过 网页 <i class="iconfont icon-view"></i> 浏览(1698) <span> <a href="javascript:printme()" target="_self" style="color: #999;"><i class="fa fa-print"></i> 打印</a></span></p>
+</div><p class="time clb">生活随笔 2022-12-08 21:38:59 通过 网页 <i class="iconfont icon-view"></i> 浏览(1699) <span> <a href="javascript:printme()" target="_self" style="color: #999;"><i class="fa fa-print"></i> 打印</a></span></p>
 <p class="navPost">  
 	<a href="JavaScript:history.back();">返回</a>&nbsp; <a href="JavaScript:DotRoll('#formpl')">我要评论</a></p></div>  
 <!-- 上一篇 下一篇开始 -->
