@@ -581,45 +581,10 @@ document.body.addEventListener('input', POWERMODE);
 </style>
 <script src="/assets/js/translate.js"></script>
   <div id="content" style="position: relative;">
-    <!-- <head>中添加听读功能样式 -->
-<style>
-.sentence {
-  cursor: pointer;
-  /* 默认 inline，不破坏排版 */
-}
-.sentence:hover {
-  background-color: #f0f0f0;
-}
-.sentence.current {
-  background-color: #ffeb3b; /* 黄色高亮 */
-  border-radius: 2px;
-}
-</style>
-<!-- 听读控制面板（插入到printview容器前） -->
-<div class="reader-panel" style="margin: 20px 0;display: none;">
-  <div class="controls">
-    <button id="playBtn" class="btn" onclick="handlePlayAction('play')">开始</button>
-    <button id="pauseBtn" class="btn" disabled onclick="handlePlayAction('pause')">暂停</button>
-    <button id="resumeBtn" class="btn" disabled onclick="handlePlayAction('resume')">继续</button>
-    <button id="stopBtn" class="btn" disabled onclick="handlePlayAction('stop')">停止</button>
-  </div>
-  <div class="voice-control">
-    <label for="voiceSelect">选择语音</label>
-    <select id="voiceSelect" class="voice-select" aria-label="选择朗读语音"></select>
-  </div>
-  <div class="progress-container">
-    <div class="progress-info">
-      进度: <span id="progressText">0/0</span>
-    </div>
-    <div class="progress-bar">
-      <div class="progress-fill" id="progressFill"></div>
-    </div>
-  </div>
-</div>
   <div class="breadcrumb" style="margin-top: -5px;"><svg xmlns="http://www.w3.org/2000/svg" width="16px" height="16px" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-home" style="width: 10px;   width: 14px;height: 14px;vertical-align: -2px;
 "><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path><polyline points="9 22 9 12 15 12 15 22"></polyline></svg><a href="/" style="padding-left: 5px;color: #7d8c8e;">首页</a>
 <span>/</span><a href="/b0/list-0.html" style="color: #7d8c8e;">生活随笔</a><span>/</span>正文</div>
-<button id="playBtn" class="btn" onclick="handlePlayAction('play')" style="max-width: 50%;opacity: .4;float: right;height: 24px;margin-top: -6px;color: black;background: #f0f0f5;" title="收听本文"><i class="fa fa-headphones" aria-hidden="true"></i> 收听本文</button><span id="translate" style="border: 0px;cursor: pointer;float: right;color: #7d8c8e;font-size: 12px;margin-top: -5px;"></span>
+<span id="translate" style="border: 0px;cursor: pointer;float: right;color: #7d8c8e;font-size: 12px;margin-top: -5px;"></span>
 
 <style type="text/css">
 	span#translate select {
@@ -640,9 +605,9 @@ document.body.addEventListener('input', POWERMODE);
 经市人民政府同意，我市2016年城乡居民医保个人缴费标准统一调整为每人每年120元，同时取消一档二档划分。<br>
 按照人社部、财政部《关于做好2015年城镇居民基本医疗保险工作的通知》要求，2015年各级财政对居民医保的补助标准达到人均380元，居民个人缴费不低于120元。我市对2016年城乡居民医保个人缴费标准统一调整的同时，参保居民住院医疗费用报销比例统一调整为：乡镇卫生院85%，一类医院报销80%，二类医院报销70%，三类医院报销50%，基本医疗和大病保险年度最高支付限额为50万元。<br>
 今年10月1日至12月20日为城乡居民参保缴费时间，参保居民以家庭户籍为单位参保，首次参保或参保人员发生变化的，可到户籍所在镇(街道)人力资源和社会保障服务所办理参保手续；已委托银行代扣代缴的城乡居民可在今年10月20日前预存足额金额，由系统自动代扣。农业户口居民参保可选择由村委会统一向农户收取。</div>
-</div><p class="time clb">生活随笔 2015-10-08 10:02:32 通过 网页 <i class="iconfont icon-view"></i> 浏览(3817) <span> <a href="javascript:printme()" target="_self" style="color: #999;"><i class="fa fa-print"></i> 打印</a></span></p>
+<p class="time clb">生活随笔 2015-10-08 10:02:32 通过 网页 <i class="iconfont icon-view"></i> 浏览(3820) <span> <a href="javascript:printme()" target="_self" style="color: #999;"><i class="fa fa-print"></i> 打印</a></span></p>
 <p class="navPost">  
-	<a href="JavaScript:history.back();">返回</a></p></div>  
+	<a href="JavaScript:history.back();">返回</a></p></div></div>  
 <!-- 上一篇 下一篇开始 -->
 <div style="overflow: hidden;margin-bottom: 10px;">
 
@@ -993,7 +958,5 @@ document.addEventListener('DOMContentLoaded', function () {
 });
 </script>
 <!-- 为代码块加上双击复制功能 -->
-<!-- </body>前插入听读核心JS -->
-<script src="/assets/js/playBtn.js"></script>
 </body>
 </html>

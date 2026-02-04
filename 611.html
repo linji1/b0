@@ -581,45 +581,10 @@ document.body.addEventListener('input', POWERMODE);
 </style>
 <script src="/assets/js/translate.js"></script>
   <div id="content" style="position: relative;">
-    <!-- <head>中添加听读功能样式 -->
-<style>
-.sentence {
-  cursor: pointer;
-  /* 默认 inline，不破坏排版 */
-}
-.sentence:hover {
-  background-color: #f0f0f0;
-}
-.sentence.current {
-  background-color: #ffeb3b; /* 黄色高亮 */
-  border-radius: 2px;
-}
-</style>
-<!-- 听读控制面板（插入到printview容器前） -->
-<div class="reader-panel" style="margin: 20px 0;display: none;">
-  <div class="controls">
-    <button id="playBtn" class="btn" onclick="handlePlayAction('play')">开始</button>
-    <button id="pauseBtn" class="btn" disabled onclick="handlePlayAction('pause')">暂停</button>
-    <button id="resumeBtn" class="btn" disabled onclick="handlePlayAction('resume')">继续</button>
-    <button id="stopBtn" class="btn" disabled onclick="handlePlayAction('stop')">停止</button>
-  </div>
-  <div class="voice-control">
-    <label for="voiceSelect">选择语音</label>
-    <select id="voiceSelect" class="voice-select" aria-label="选择朗读语音"></select>
-  </div>
-  <div class="progress-container">
-    <div class="progress-info">
-      进度: <span id="progressText">0/0</span>
-    </div>
-    <div class="progress-bar">
-      <div class="progress-fill" id="progressFill"></div>
-    </div>
-  </div>
-</div>
   <div class="breadcrumb" style="margin-top: -5px;"><svg xmlns="http://www.w3.org/2000/svg" width="16px" height="16px" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-home" style="width: 10px;   width: 14px;height: 14px;vertical-align: -2px;
 "><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path><polyline points="9 22 9 12 15 12 15 22"></polyline></svg><a href="/" style="padding-left: 5px;color: #7d8c8e;">首页</a>
 <span>/</span><a href="/b0/list-0.html" style="color: #7d8c8e;">生活随笔</a><span>/</span>正文</div>
-<button id="playBtn" class="btn" onclick="handlePlayAction('play')" style="max-width: 50%;opacity: .4;float: right;height: 24px;margin-top: -6px;color: black;background: #f0f0f5;" title="收听本文"><i class="fa fa-headphones" aria-hidden="true"></i> 收听本文</button><span id="translate" style="border: 0px;cursor: pointer;float: right;color: #7d8c8e;font-size: 12px;margin-top: -5px;"></span>
+<span id="translate" style="border: 0px;cursor: pointer;float: right;color: #7d8c8e;font-size: 12px;margin-top: -5px;"></span>
 
 <style type="text/css">
 	span#translate select {
@@ -641,9 +606,9 @@ document.body.addEventListener('input', POWERMODE);
 &nbsp;&nbsp;&nbsp;&nbsp;志愿湛江幼儿师范专科学校学前教育专业公费定向单独招生并经面试合格的考生，中考录取分数线根据考生生源地分别为：廉江市：679分；雷州市：643分。志愿岭南师范学院小学教育专业公费定向单独招生并经面试合格的考生，中考录取分数线根据考生生源地分别为：遂溪县：736分；廉江市：731分；雷州市：765分；吴川市：749分。以上两校均按照招生计划与录取人数1：1的比例划线，如果招生学校计划数末位出现多位考生总分相同，先安排“同等条件优先录取”教育优待生投档，如无此类考生或计划有结余，则按照“同分比较”原则确定优先投档的考生。<br><br>
 &nbsp;&nbsp;&nbsp;&nbsp;中等职业技术学校、技工学校录取最低控制分数线由各学校根据本校生源情况自行确定。<br><br>
 &nbsp;&nbsp;&nbsp;&nbsp;中考录取结果于8月7日上午11时起可查询，广大家长和学生可在微信登录“粤省事”小程序查询（注：首次登录可从微信“发现”功能页进入小程序页面进行搜索注册→在“粤省事”服务列表中，点击“教育服务”，进入教育服务界面→点击“中考成绩查询”，进入页面并输入准考证号及姓名查询），或者通过登录湛江市招生考试网（网址：<a target="_blank" href="http://zb.zhjedu.cn">http://zb.zhjedu.cn</a>）进行查询。</div>
-</div><p class="time clb">生活随笔 2020-08-06 23:22:51 通过 网页 <i class="iconfont icon-view"></i> 浏览(4393) <span> <a href="javascript:printme()" target="_self" style="color: #999;"><i class="fa fa-print"></i> 打印</a></span></p>
+<p class="time clb">生活随笔 2020-08-06 23:22:51 通过 网页 <i class="iconfont icon-view"></i> 浏览(4395) <span> <a href="javascript:printme()" target="_self" style="color: #999;"><i class="fa fa-print"></i> 打印</a></span></p>
 <p class="navPost">  
-	<a href="JavaScript:history.back();">返回</a>&nbsp; <a href="JavaScript:DotRoll('#formpl')">我要评论</a></p></div>  
+	<a href="JavaScript:history.back();">返回</a>&nbsp; <a href="JavaScript:DotRoll('#formpl')">我要评论</a></p></div></div>  
 <!-- 上一篇 下一篇开始 -->
 <div style="overflow: hidden;margin-bottom: 10px;">
 
@@ -1004,7 +969,5 @@ document.addEventListener('DOMContentLoaded', function () {
 });
 </script>
 <!-- 为代码块加上双击复制功能 -->
-<!-- </body>前插入听读核心JS -->
-<script src="/assets/js/playBtn.js"></script>
 </body>
 </html>

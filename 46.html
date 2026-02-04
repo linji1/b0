@@ -581,45 +581,10 @@ document.body.addEventListener('input', POWERMODE);
 </style>
 <script src="/assets/js/translate.js"></script>
   <div id="content" style="position: relative;">
-    <!-- <head>中添加听读功能样式 -->
-<style>
-.sentence {
-  cursor: pointer;
-  /* 默认 inline，不破坏排版 */
-}
-.sentence:hover {
-  background-color: #f0f0f0;
-}
-.sentence.current {
-  background-color: #ffeb3b; /* 黄色高亮 */
-  border-radius: 2px;
-}
-</style>
-<!-- 听读控制面板（插入到printview容器前） -->
-<div class="reader-panel" style="margin: 20px 0;display: none;">
-  <div class="controls">
-    <button id="playBtn" class="btn" onclick="handlePlayAction('play')">开始</button>
-    <button id="pauseBtn" class="btn" disabled onclick="handlePlayAction('pause')">暂停</button>
-    <button id="resumeBtn" class="btn" disabled onclick="handlePlayAction('resume')">继续</button>
-    <button id="stopBtn" class="btn" disabled onclick="handlePlayAction('stop')">停止</button>
-  </div>
-  <div class="voice-control">
-    <label for="voiceSelect">选择语音</label>
-    <select id="voiceSelect" class="voice-select" aria-label="选择朗读语音"></select>
-  </div>
-  <div class="progress-container">
-    <div class="progress-info">
-      进度: <span id="progressText">0/0</span>
-    </div>
-    <div class="progress-bar">
-      <div class="progress-fill" id="progressFill"></div>
-    </div>
-  </div>
-</div>
   <div class="breadcrumb" style="margin-top: -5px;"><svg xmlns="http://www.w3.org/2000/svg" width="16px" height="16px" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-home" style="width: 10px;   width: 14px;height: 14px;vertical-align: -2px;
 "><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path><polyline points="9 22 9 12 15 12 15 22"></polyline></svg><a href="/" style="padding-left: 5px;color: #7d8c8e;">首页</a>
 <span>/</span><a href="/b0/list-0.html" style="color: #7d8c8e;">生活随笔</a><span>/</span>正文</div>
-<button id="playBtn" class="btn" onclick="handlePlayAction('play')" style="max-width: 50%;opacity: .4;float: right;height: 24px;margin-top: -6px;color: black;background: #f0f0f5;" title="收听本文"><i class="fa fa-headphones" aria-hidden="true"></i> 收听本文</button><span id="translate" style="border: 0px;cursor: pointer;float: right;color: #7d8c8e;font-size: 12px;margin-top: -5px;"></span>
+<span id="translate" style="border: 0px;cursor: pointer;float: right;color: #7d8c8e;font-size: 12px;margin-top: -5px;"></span>
 
 <style type="text/css">
 	span#translate select {
@@ -637,9 +602,9 @@ document.body.addEventListener('input', POWERMODE);
 <div  id="printview">
 <h1>班主任的智慧</h1><div class="text">
 &nbsp;&nbsp;&nbsp;&nbsp; <b>让混乱的课堂变得有序</b><br><br>&nbsp;&nbsp;&nbsp;&nbsp; 班主任在教育教学过程中经常会碰到各种始料不及、甚至令人恼火的问题，一定要冷静地灵活应对。本学期刚开学，学生们见了面特别热闹，上课已经10分钟了，可班里还是没安静下来。我强压怒火，训教了他们几句。从那以后，纪律有了明显变化。但我知道，当我以教育者的身份居高临下、严厉训斥学生时，学生敢怒不敢言，表面服从内心却很不服气。此时，老师要放下架子，彻底改变简单粗暴的态度，做到平易近人，使学生亲其师，信其道，这样才能将课堂引入正轨。<br><br>&nbsp;&nbsp;&nbsp;&nbsp; <b>让离群的孤雁归队</b>&nbsp;&nbsp;&nbsp;&nbsp;<br><br>&nbsp;&nbsp;&nbsp;&nbsp; 前苏联著名教育家马卡连柯说过：“我们认为整个集体就是我们教育的对象，我们应该把有组织的教育影响针对着集体。把个人保留在集体内，同时集体也是自愿地容纳这些个人。”班主任要建设好集体，并通过学生集体教育好学生个人。学生集体就像一个雁群，学生个人犹如一只只雁，离了群就不能健康快乐地生活。我班有个学生非常顽皮，经常制造一些恶作剧，尽管老师每次都严厉批评，仍不奏效。有一次课间，他又给几个跳绳的女生“捣乱”，后来我才弄明白，原来，他在与同学做游戏时不遵守规则，同学们指责他，他又动拳头打人，所以课间活动他总是孤零零一个人，谁也不跟他玩，他就只好“捣乱”了。<!--more--><br><br>&nbsp;&nbsp;&nbsp;&nbsp; 我问他：“你想和同学交朋友、一起做游戏吗?”他低着头咬着手指说：“想!”他还保证今后要遵守游戏规则，不再打人。班会课上，我向全班同学征求意见，同学们都愿意再和他一起玩，他开心地笑了。从此以后，他和同学友好相处，学习也有了进步。&nbsp;&nbsp;<br>&nbsp;&nbsp;<br> 　　<b>让孩子微弱的闪光点燃起</b><br><br>&nbsp;&nbsp;&nbsp;&nbsp; 班主任最伤脑筋的是后进生的转化工作，要千方百计捕捉后进生身上的闪光点，并对他们的点滴进步予以肯定和赞扬。我班有个学生上课总爱做小动作。有一次，我看他正玩小刀，就故意提问他，让他用“专心”一词口头造句。他说：“我上课专心听讲。”同学们都笑起来。我说：“你们笑什么呢，难道造的句子不对?”一个学生站起来不服气地说：“他常常语文课折纸飞机，数学课看画报，美术课他用画笔涂别人的衣服，没有一天专心听讲的。”“是啊，他刚才还在用小刀割纸。”同学们你一言我一语地数落，他不好意思地低下了头。我说：“静之同学是有很多缺点，但我发现他今天是认真听讲的，要不他怎么能回答对呢?同学们该给他鼓励，老师相信他今后一定能做到专心听讲。”此后，我在课堂上经常鼓励他发言，他慢慢地对学习有了兴趣，学习进步很快。<br><br>&nbsp;&nbsp;&nbsp;&nbsp;班主任工作是育人的工作，复杂多变，总会碰到许多棘手的问题，班主任要充分发挥自己的聪明才智，在教育教学中灵活应变。</div>
-</div><p class="time clb">生活随笔 2008-07-07 17:21:10 通过 网页 <i class="iconfont icon-view"></i> 浏览(4335) <span> <a href="javascript:printme()" target="_self" style="color: #999;"><i class="fa fa-print"></i> 打印</a></span></p>
+<p class="time clb">生活随笔 2008-07-07 17:21:10 通过 网页 <i class="iconfont icon-view"></i> 浏览(4336) <span> <a href="javascript:printme()" target="_self" style="color: #999;"><i class="fa fa-print"></i> 打印</a></span></p>
 <p class="navPost">  
-	<a href="JavaScript:history.back();">返回</a>&nbsp; <a href="JavaScript:DotRoll('#formpl')">我要评论</a></p></div>  
+	<a href="JavaScript:history.back();">返回</a>&nbsp; <a href="JavaScript:DotRoll('#formpl')">我要评论</a></p></div></div>  
 <!-- 上一篇 下一篇开始 -->
 <div style="overflow: hidden;margin-bottom: 10px;">
 
@@ -1000,7 +965,5 @@ document.addEventListener('DOMContentLoaded', function () {
 });
 </script>
 <!-- 为代码块加上双击复制功能 -->
-<!-- </body>前插入听读核心JS -->
-<script src="/assets/js/playBtn.js"></script>
 </body>
 </html>
